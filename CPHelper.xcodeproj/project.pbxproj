@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */; };
+		F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */; };
+		F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */; };
+		F04C283C17A6C32B006FD7B8 /* NumberHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5717A2DAD800D0564F /* NumberHelper.h */; };
+		F04C283D17A6C32B006FD7B8 /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
+		F04C283E17A6C32B006FD7B8 /* UIImage+animatedGIF.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */; };
+		F04C283F17A6C32B006FD7B8 /* UILabel+Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */; };
+		F04C284017A6C32B006FD7B8 /* UINavigationBar+CustomNavBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */; };
+		F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */; };
+		F04C284217A6C32B006FD7B8 /* UIView+RoundCorners.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6317A2DAD800D0564F /* UIView+RoundCorners.h */; };
+		F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */; };
+		F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2DB3017A2D66800D0564F /* Foundation.framework */; };
+		F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */; };
+		F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */; };
+		F0C2DB6917A2DAD800D0564F /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */; };
+		F0C2DB6C17A2DAD800D0564F /* NumberHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5817A2DAD800D0564F /* NumberHelper.m */; };
+		F0C2DB6D17A2DAD800D0564F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5A17A2DAD800D0564F /* Reachability.m */; };
+		F0C2DB6E17A2DAD800D0564F /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */; };
+		F0C2DB6F17A2DAD800D0564F /* UILabel+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */; };
+		F0C2DB7017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */; };
+		F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */; };
+		F0C2DB7217A2DAD800D0564F /* UIView+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */; };
+		F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0C2DB2B17A2D66800D0564F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in CopyFiles */,
+				F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in CopyFiles */,
+				F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in CopyFiles */,
+				F04C283C17A6C32B006FD7B8 /* NumberHelper.h in CopyFiles */,
+				F04C283D17A6C32B006FD7B8 /* Reachability.h in CopyFiles */,
+				F04C283E17A6C32B006FD7B8 /* UIImage+animatedGIF.h in CopyFiles */,
+				F04C283F17A6C32B006FD7B8 /* UILabel+Helpers.h in CopyFiles */,
+				F04C284017A6C32B006FD7B8 /* UINavigationBar+CustomNavBar.h in CopyFiles */,
+				F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in CopyFiles */,
+				F04C284217A6C32B006FD7B8 /* UIView+RoundCorners.h in CopyFiles */,
+				F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F0C2DB2D17A2D66800D0564F /* libCPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C2DB3017A2D66800D0564F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHelper-Prefix.pch"; sourceTree = "<group>"; };
+		F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedControl.h; sourceTree = "<group>"; };
+		F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedControl.m; sourceTree = "<group>"; };
+		F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarItem.h; sourceTree = "<group>"; };
+		F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarItem.m; sourceTree = "<group>"; };
+		F0C2DB5717A2DAD800D0564F /* NumberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberHelper.h; sourceTree = "<group>"; };
+		F0C2DB5817A2DAD800D0564F /* NumberHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHelper.m; sourceTree = "<group>"; };
+		F0C2DB5917A2DAD800D0564F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F0C2DB5A17A2DAD800D0564F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helpers.h"; sourceTree = "<group>"; };
+		F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helpers.m"; sourceTree = "<group>"; };
+		F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomNavBar.h"; sourceTree = "<group>"; };
+		F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomNavBar.m"; sourceTree = "<group>"; };
+		F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonLayout.h"; sourceTree = "<group>"; };
+		F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonLayout.m"; sourceTree = "<group>"; };
+		F0C2DB6317A2DAD800D0564F /* UIView+RoundCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundCorners.h"; sourceTree = "<group>"; };
+		F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorners.m"; sourceTree = "<group>"; };
+		F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ImageBackButton.h"; sourceTree = "<group>"; };
+		F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ImageBackButton.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C2DB2A17A2D66800D0564F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C2DB2417A2D66800D0564F = {
+			isa = PBXGroup;
+			children = (
+				F0C2DB3217A2D66800D0564F /* CPHelper */,
+				F0C2DB2F17A2D66800D0564F /* Frameworks */,
+				F0C2DB2E17A2D66800D0564F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C2DB2E17A2D66800D0564F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2DB2D17A2D66800D0564F /* libCPHelper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C2DB2F17A2D66800D0564F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2DB3017A2D66800D0564F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C2DB3217A2D66800D0564F /* CPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */,
+				F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */,
+				F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */,
+				F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */,
+				F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */,
+				F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */,
+				F0C2DB5717A2DAD800D0564F /* NumberHelper.h */,
+				F0C2DB5817A2DAD800D0564F /* NumberHelper.m */,
+				F0C2DB5917A2DAD800D0564F /* Reachability.h */,
+				F0C2DB5A17A2DAD800D0564F /* Reachability.m */,
+				F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */,
+				F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */,
+				F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */,
+				F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */,
+				F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */,
+				F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */,
+				F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */,
+				F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */,
+				F0C2DB6317A2DAD800D0564F /* UIView+RoundCorners.h */,
+				F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */,
+				F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */,
+				F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */,
+				F0C2DB3317A2D66800D0564F /* Supporting Files */,
+			);
+			path = CPHelper;
+			sourceTree = "<group>";
+		};
+		F0C2DB3317A2D66800D0564F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C2DB2C17A2D66800D0564F /* CPHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C2DB3B17A2D66800D0564F /* Build configuration list for PBXNativeTarget "CPHelper" */;
+			buildPhases = (
+				F0C2DB2917A2D66800D0564F /* Sources */,
+				F0C2DB2A17A2D66800D0564F /* Frameworks */,
+				F0C2DB2B17A2D66800D0564F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPHelper;
+			productName = CPHelper;
+			productReference = F0C2DB2D17A2D66800D0564F /* libCPHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C2DB2517A2D66800D0564F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Collin Price";
+			};
+			buildConfigurationList = F0C2DB2817A2D66800D0564F /* Build configuration list for PBXProject "CPHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C2DB2417A2D66800D0564F;
+			productRefGroup = F0C2DB2E17A2D66800D0564F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C2DB2C17A2D66800D0564F /* CPHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C2DB2917A2D66800D0564F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */,
+				F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */,
+				F0C2DB6917A2DAD800D0564F /* CustomTabBarItem.m in Sources */,
+				F0C2DB6C17A2DAD800D0564F /* NumberHelper.m in Sources */,
+				F0C2DB6D17A2DAD800D0564F /* Reachability.m in Sources */,
+				F0C2DB6E17A2DAD800D0564F /* UIImage+animatedGIF.m in Sources */,
+				F0C2DB6F17A2DAD800D0564F /* UILabel+Helpers.m in Sources */,
+				F0C2DB7017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m in Sources */,
+				F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */,
+				F0C2DB7217A2DAD800D0564F /* UIView+RoundCorners.m in Sources */,
+				F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0C2DB3917A2D66800D0564F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0C2DB3A17A2D66800D0564F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C2DB3C17A2D66800D0564F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CPHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0C2DB3D17A2D66800D0564F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CPHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C2DB2817A2D66800D0564F /* Build configuration list for PBXProject "CPHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C2DB3917A2D66800D0564F /* Debug */,
+				F0C2DB3A17A2D66800D0564F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C2DB3B17A2D66800D0564F /* Build configuration list for PBXNativeTarget "CPHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C2DB3C17A2D66800D0564F /* Debug */,
+				F0C2DB3D17A2D66800D0564F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C2DB2517A2D66800D0564F /* Project object */;
+}
