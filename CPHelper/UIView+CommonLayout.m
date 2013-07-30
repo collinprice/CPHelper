@@ -169,6 +169,37 @@
                                                       constant:size]];
 }
 
+-(void)addAlign:(UIView*)left beside:(UIView*)right {
+    
+    
+}
+
+-(void)addAlign:(UIView*)left beside:(UIView*)right withPadding:(NSInteger)padding {
+    
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:left
+                                                     attribute:NSLayoutAttributeRight
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:right
+                                                     attribute:NSLayoutAttributeLeft
+                                                    multiplier:1
+                                                      constant:padding]];
+}
+
+-(void)addAlign:(UIView*)top above:(UIView*)bottom {
+    
+    [self addAlign:top above:bottom withPadding:0];
+}
+
+-(void)addAlign:(UIView*)top above:(UIView*)bottom withPadding:(NSInteger)padding; {
+    
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:bottom
+                                                     attribute:NSLayoutAttributeTop
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:top
+                                                     attribute:NSLayoutAttributeBottom
+                                                    multiplier:1
+                                                      constant:padding]];
+}
 
 +(void)setAllTranslatesAutoresizingMaskIntoConstraintsToNO:(UIView*)view {
     

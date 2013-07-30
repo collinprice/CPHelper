@@ -40,6 +40,12 @@
 -(void)addWidthConstraint:(CGFloat)size;
 -(void)addHeightConstraint:(CGFloat)size;
 
+-(void)addAlign:(UIView*)left beside:(UIView*)right;
+-(void)addAlign:(UIView*)left beside:(UIView*)right withPadding:(NSInteger)padding;
+
+-(void)addAlign:(UIView*)top above:(UIView*)bottom;
+-(void)addAlign:(UIView*)top above:(UIView*)bottom withPadding:(NSInteger)padding;
+
 +(void)setAllTranslatesAutoresizingMaskIntoConstraintsToNO:(UIView*)view;
 +(void)setMultipleTranslatesAutoresizingMaskIntoConstraintsToNO:(NSArray*)views;
 
