@@ -65,16 +65,26 @@
 
 -(void)addCenterXConstraint:(UIView*)view {
     
+    [self addCenterXConstraint:view withOffset:0];
+}
+
+-(void)addCenterXConstraint:(UIView *)view withOffset:(NSInteger)offset {
+    
     [self addConstraint:[NSLayoutConstraint constraintWithItem:view
                                                      attribute:NSLayoutAttributeCenterX
                                                      relatedBy:NSLayoutRelationEqual
                                                         toItem:self
                                                      attribute:NSLayoutAttributeCenterX
                                                     multiplier:1
-                                                      constant:0]];
+                                                      constant:offset]];
 }
 
 -(void)addCenterYConstraint:(UIView*)view {
+    
+    [self addCenterYConstraint:view withOffset:0];
+}
+
+-(void)addCenterYConstraint:(UIView *)view withOffset:(NSInteger)offset {
     
     [self addConstraint:[NSLayoutConstraint constraintWithItem:view
                                                      attribute:NSLayoutAttributeCenterY
@@ -82,7 +92,7 @@
                                                         toItem:self
                                                      attribute:NSLayoutAttributeCenterY
                                                     multiplier:1
-                                                      constant:0]];
+                                                      constant:offset]];
 }
 
 -(void)addAlignTopConstraint:(UIView*)view {

@@ -23,7 +23,10 @@
 -(void)addEvenHorizontalConstraints:(NSArray*)views;
 
 -(void)addCenterXConstraint:(UIView*)view;
+-(void)addCenterXConstraint:(UIView *)view withOffset:(NSInteger)offset;
+
 -(void)addCenterYConstraint:(UIView*)view;
+-(void)addCenterYConstraint:(UIView *)view withOffset:(NSInteger)offset;
 
 -(void)addAlignTopConstraint:(UIView*)view;
 -(void)addAlignTopConstraint:(UIView*)view withPadding:(NSInteger)padding;

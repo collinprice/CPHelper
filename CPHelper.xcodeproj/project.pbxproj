@@ -18,6 +18,8 @@
 		F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */; };
 		F04C284217A6C32B006FD7B8 /* UIView+RoundCorners.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6317A2DAD800D0564F /* UIView+RoundCorners.h */; };
 		F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */; };
+		F04C2BA617AA9D6C006FD7B8 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F04C2BA517AA9D6C006FD7B8 /* UIView+Animations.m */; };
+		F04C2BA717AA9E80006FD7B8 /* UIView+Animations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F04C2BA417AA9D6C006FD7B8 /* UIView+Animations.h */; };
 		F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2DB3017A2D66800D0564F /* Foundation.framework */; };
 		F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */; };
 		F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */; };
@@ -30,6 +32,10 @@
 		F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */; };
 		F0C2DB7217A2DAD800D0564F /* UIView+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */; };
 		F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */; };
+		F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */; };
+		F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0F17AAD644006677D9 /* NSString+Helper.m */; };
+		F0CFED1117AAD82F006677D9 /* UIImageView+animatedGIF.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */; };
+		F0CFED1217AAD82F006677D9 /* NSString+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFED0E17AAD644006677D9 /* NSString+Helper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +45,9 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				F0CFED1117AAD82F006677D9 /* UIImageView+animatedGIF.h in CopyFiles */,
+				F0CFED1217AAD82F006677D9 /* NSString+Helper.h in CopyFiles */,
+				F04C2BA717AA9E80006FD7B8 /* UIView+Animations.h in CopyFiles */,
 				F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in CopyFiles */,
 				F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in CopyFiles */,
 				F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in CopyFiles */,
@@ -56,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F04C2BA417AA9D6C006FD7B8 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animations.h"; path = "../../CPHelpers/CPHelper/UIView+Animations.h"; sourceTree = "<group>"; };
+		F04C2BA517AA9D6C006FD7B8 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animations.m"; path = "../../CPHelpers/CPHelper/UIView+Animations.m"; sourceTree = "<group>"; };
 		F0C2DB2D17A2D66800D0564F /* libCPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C2DB3017A2D66800D0564F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHelper-Prefix.pch"; sourceTree = "<group>"; };
@@ -81,6 +92,10 @@
 		F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundCorners.m"; sourceTree = "<group>"; };
 		F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ImageBackButton.h"; sourceTree = "<group>"; };
 		F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ImageBackButton.m"; sourceTree = "<group>"; };
+		F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+animatedGIF.h"; sourceTree = "<group>"; };
+		F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+animatedGIF.m"; sourceTree = "<group>"; };
+		F0CFED0E17AAD644006677D9 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		F0CFED0F17AAD644006677D9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				F0C2DB3217A2D66800D0564F /* CPHelper */,
+				F0C2DB3317A2D66800D0564F /* Supporting Files */,
 				F0C2DB2F17A2D66800D0564F /* Frameworks */,
 				F0C2DB2E17A2D66800D0564F /* Products */,
 			);
@@ -145,7 +161,12 @@
 				F0C2DB6417A2DAD800D0564F /* UIView+RoundCorners.m */,
 				F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */,
 				F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */,
-				F0C2DB3317A2D66800D0564F /* Supporting Files */,
+				F04C2BA417AA9D6C006FD7B8 /* UIView+Animations.h */,
+				F04C2BA517AA9D6C006FD7B8 /* UIView+Animations.m */,
+				F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */,
+				F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */,
+				F0CFED0E17AAD644006677D9 /* NSString+Helper.h */,
+				F0CFED0F17AAD644006677D9 /* NSString+Helper.m */,
 			);
 			path = CPHelper;
 			sourceTree = "<group>";
@@ -156,6 +177,7 @@
 				F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = CPHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +242,9 @@
 				F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */,
 				F0C2DB7217A2DAD800D0564F /* UIView+RoundCorners.m in Sources */,
 				F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */,
+				F04C2BA617AA9D6C006FD7B8 /* UIView+Animations.m in Sources */,
+				F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */,
+				F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
