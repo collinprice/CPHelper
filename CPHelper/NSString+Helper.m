@@ -21,4 +21,15 @@
     }
 }
 
+-(NSDictionary*)fileInfo {
+    
+    int index = [self lastIndexOf:@"."];
+    
+    if (index == -1) {
+        return nil;
+    }
+    
+    return @{ @"base" : [self substringToIndex:index], @"extension" : [self substringFromIndex:index+1]};
+}
+
 @end

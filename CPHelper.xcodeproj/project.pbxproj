@@ -22,6 +22,7 @@
 		F0A02F7317AC1868003C2A57 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A02F7217AC1868003C2A57 /* CoreData.framework */; };
 		F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
 		F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */; };
+		F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7817AC255400FBB189 /* IOHelper.m */; };
 		F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2DB3017A2D66800D0564F /* Foundation.framework */; };
 		F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */; };
 		F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */; };
@@ -75,6 +76,8 @@
 		F0A02F7217AC1868003C2A57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleHelper.h; sourceTree = "<group>"; };
 		F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleHelper.m; sourceTree = "<group>"; };
+		F0A70B7717AC255400FBB189 /* IOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHelper.h; sourceTree = "<group>"; };
+		F0A70B7817AC255400FBB189 /* IOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOHelper.m; sourceTree = "<group>"; };
 		F0C2DB2D17A2D66800D0564F /* libCPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C2DB3017A2D66800D0564F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHelper-Prefix.pch"; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				F0C2DB5A17A2DAD800D0564F /* Reachability.m */,
 				F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */,
 				F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */,
+				F0A70B7717AC255400FBB189 /* IOHelper.h */,
+				F0A70B7817AC255400FBB189 /* IOHelper.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */,
 				F0A02F7117AC17EA003C2A57 /* CoreDataWrapper.m in Sources */,
 				F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */,
+				F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

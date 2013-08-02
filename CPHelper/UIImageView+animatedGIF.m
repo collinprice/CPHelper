@@ -20,8 +20,14 @@
         return nil;
     }
     
-    NSURL *url = [[NSBundle mainBundle] URLForResource:[imageName substringToIndex:index] withExtension:[imageName substringFromIndex:index+1]];
-    return [[UIImageView alloc] initWithImage:[UIImage animatedImageWithAnimatedGIFURL:url]];
+    NSDictionary* fileinfo = [imageName fileInfo];
+    
+    if (fileinfo) {
+        NSURL *url = [[NSBundle mainBundle] URLForResource:fileinfo[@"base"] withExtension:fileinfo[@"extension"]];
+        return [[UIImageView alloc] initWithImage:[UIImage animatedImageWithAnimatedGIFURL:url]];
+    } else {
+        return nil;
+    }
 }
 
 @end
