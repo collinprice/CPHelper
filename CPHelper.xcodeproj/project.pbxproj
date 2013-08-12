@@ -41,6 +41,7 @@
 		F0CFED1217AAD82F006677D9 /* NSString+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFED0E17AAD644006677D9 /* NSString+Helper.h */; };
 		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
 		F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
+		F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */,
 				F0A70B8017B14EC800FBB189 /* UIView+Manipulate.h in CopyFiles */,
 				F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in CopyFiles */,
 				F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in CopyFiles */,

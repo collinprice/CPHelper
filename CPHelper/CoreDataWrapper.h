@@ -11,8 +11,9 @@
 
 @interface CoreDataWrapper : NSObject
 
-- (BOOL)save;
-- (NSManagedObjectContext*)managedObjectContext;
+-(BOOL)save;
+-(void)clearStore;
+-(NSManagedObjectContext*)managedObjectContext;
 
 +(CoreDataWrapper*)sharedInstance;
 

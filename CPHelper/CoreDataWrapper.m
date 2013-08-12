@@ -44,6 +44,17 @@ NSString * const DataManagerDidSaveFailedNotification = @"DataManagerDidSaveFail
 	return YES;
 }
 
+-(void)clearStore {
+    
+    //Erase the persistent store from coordinator and also file manager.
+    NSPersistentStore *store = [_persistentStoreCoordinator.persistentStores lastObject];
+    NSError *error = nil;
+    [_persistentStoreCoordinator removePersistentStore:store error:&error];
+    [[NSFileManager defaultManager] removeItemAtURL:[self storeURL] error:&error];
+    
+    _persistentStoreCoordinator = nil;
+}
+
 #pragma mark - Core Data stack
 
 // Returns the managed object context for the application.
@@ -82,7 +93,7 @@ NSString * const DataManagerDidSaveFailedNotification = @"DataManagerDidSaveFail
         return _persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.sqlite", [BundleHelper bundleName]]];
+    NSURL *storeURL = [self storeURL];
     
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -93,6 +104,10 @@ NSString * const DataManagerDidSaveFailedNotification = @"DataManagerDidSaveFail
     }
     
     return _persistentStoreCoordinator;
+}
+
+-(NSURL*)storeURL {
+    return [[self applicationDocumentsDirectory] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.sqlite", [BundleHelper bundleName]]];
 }
 
 #pragma mark - Application's Documents directory
