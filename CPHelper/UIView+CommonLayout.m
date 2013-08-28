@@ -217,6 +217,7 @@
     
     NSArray* viewBlackList = @[
                                [UISegmentedControl class],
+                               [UIWebView class],
                                ];
     
     for (Class class in viewBlackList) {
