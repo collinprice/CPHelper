@@ -10,6 +10,7 @@
 
 @interface IOHelper : NSObject
 
-+(NSArray*)readJSON:(NSString*)filename;
++(NSArray*)readJSONArray:(NSString*)filename;
++(NSDictionary*)readJSONDictionary:(NSString*)filename;
 
 @end

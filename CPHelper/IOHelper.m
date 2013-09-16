@@ -11,13 +11,31 @@
 
 @implementation IOHelper
 
-+(NSArray*)readJSON:(NSString*)filename {
-    
++(NSArray*)readJSONArray:(NSString*)filename {
+
     NSDictionary* fileInfo = [filename fileInfo];
     
     NSError* err = nil;
     NSString* dataPath = [[NSBundle mainBundle] pathForResource:fileInfo[@"base"] ofType:fileInfo[@"extension"]];
     NSArray* datas = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath]
+                                                     options:kNilOptions
+                                                       error:&err];
+    
+    if (err) {
+        NSLog(@"IOHelper Error: %@", err.description);
+        return nil;
+    } else {
+        return datas;
+    }
+}
+
++(NSDictionary*)readJSONDictionary:(NSString*)filename {
+    
+    NSDictionary* fileInfo = [filename fileInfo];
+    
+    NSError* err = nil;
+    NSString* dataPath = [[NSBundle mainBundle] pathForResource:fileInfo[@"base"] ofType:fileInfo[@"extension"]];
+    NSDictionary* datas = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath]
                                                      options:kNilOptions
                                                        error:&err];
     
