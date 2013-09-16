@@ -42,6 +42,10 @@
 		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
 		F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
 		F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
+		F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */; };
+		F0F0A04317CFC08800F6E66F /* UIWebView+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */; };
+		F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */; };
+		F0F0A19D17D909A200F6E66F /* UIImage+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +55,8 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				F0F0A19D17D909A200F6E66F /* UIImage+Helper.h in CopyFiles */,
+				F0F0A04317CFC08800F6E66F /* UIWebView+Helper.h in CopyFiles */,
 				F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */,
 				F0A70B8017B14EC800FBB189 /* UIView+Manipulate.h in CopyFiles */,
 				F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in CopyFiles */,
@@ -111,6 +117,10 @@
 		F0CFED0F17AAD644006677D9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 		F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
 		F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
+		F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Helper.h"; sourceTree = "<group>"; };
+		F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Helper.m"; sourceTree = "<group>"; };
+		F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +157,10 @@
 				F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */,
 				F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */,
 				F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */,
+				F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */,
+				F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */,
+				F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */,
+				F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -303,6 +317,8 @@
 				F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */,
 				F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */,
 				F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */,
+				F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */,
+				F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

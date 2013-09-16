@@ -32,4 +32,24 @@
     return @{ @"base" : [self substringToIndex:index], @"extension" : [self substringFromIndex:index+1]};
 }
 
+-(NSString*)onlyNumbers {
+    
+    NSMutableString *strippedString = [NSMutableString
+                                       stringWithCapacity:self.length];
+    
+    NSScanner *scanner = [NSScanner scannerWithString:self];
+    NSCharacterSet *numbers = [NSCharacterSet characterSetWithCharactersInString:@"0123456789"];
+    
+    while ([scanner isAtEnd] == NO) {
+        NSString *buffer;
+        if ([scanner scanCharactersFromSet:numbers intoString:&buffer]) {
+            [strippedString appendString:buffer];
+        } else {
+            [scanner setScanLocation:([scanner scanLocation] + 1)];
+        }
+    }
+    
+    return strippedString;
+}
+
 @end

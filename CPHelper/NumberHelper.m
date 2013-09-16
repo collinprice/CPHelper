@@ -16,4 +16,8 @@
     return arc4random() % max;
 }
 
++(BOOL)randomBOOL {
+    return [NumberHelper randomInt:2] == 1;
+}
+
 @end

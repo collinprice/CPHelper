@@ -11,9 +11,12 @@
 @implementation UIView (CommonLayout)
 
 -(void)addBothFillConstraints:(UIView*)view {
+    [self addBothFillConstraints:view withPadding:0];
+}
 
-    [self addHorizontalFillConstraints:view];
-    [self addVerticalFillConstraints:view];
+-(void)addBothFillConstraints:(UIView*)view withPadding:(NSInteger)padding {
+    [self addHorizontalFillConstraints:view withPadding:padding];
+    [self addVerticalFillConstraints:view withPadding:padding];
 }
 
 -(void)addMultipleHorizontalFillConstraints:(NSArray*)views {
@@ -210,6 +213,33 @@
                                                     multiplier:1
                                                       constant:padding]];
 }
+
+-(void)addStackVerticallyConstraints:(NSArray*)views {
+    
+    NSString *hConstraint = @"V:|";
+    NSMutableDictionary *viewsDict = [[NSMutableDictionary alloc] init];
+    for (NSInteger i = 0; i < [views count]; ++i) {
+        NSString *vName = [NSString stringWithFormat:@"btn%d",i];
+        [viewsDict setObject:[views objectAtIndex:i] forKey:vName];
+        hConstraint = [NSString stringWithFormat:@"%@[%@]",hConstraint,vName];
+    }
+    hConstraint = [NSString stringWithFormat:@"%@|", hConstraint];
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:hConstraint options:0 metrics:nil views:viewsDict]];
+}
+
+-(void)addStackHorizontallyConstraints:(NSArray*)views {
+    
+    NSString *hConstraint = @"H:|";
+    NSMutableDictionary *viewsDict = [[NSMutableDictionary alloc] init];
+    for (NSInteger i = 0; i < [views count]; ++i) {
+        NSString *vName = [NSString stringWithFormat:@"btn%d",i];
+        [viewsDict setObject:[views objectAtIndex:i] forKey:vName];
+        hConstraint = [NSString stringWithFormat:@"%@[%@]",hConstraint,vName];
+    }
+    hConstraint = [NSString stringWithFormat:@"%@|", hConstraint];
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:hConstraint options:0 metrics:nil views:viewsDict]];
+}
+
 
 +(void)setAllTranslatesAutoresizingMaskIntoConstraintsToNO:(UIView*)view {
     

@@ -11,6 +11,9 @@
 @interface NSString (Helper)
 
 -(int)lastIndexOf:(NSString*)aString;
+
 -(NSDictionary*)fileInfo;
+
+-(NSString*)onlyNumbers;
 
 @end

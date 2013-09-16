@@ -11,6 +11,7 @@
 @interface UIView (CommonLayout)
 
 -(void)addBothFillConstraints:(UIView*)view;
+-(void)addBothFillConstraints:(UIView*)view withPadding:(NSInteger)padding;
 
 -(void)addHorizontalFillConstraints:(UIView*)view;
 -(void)addHorizontalFillConstraints:(UIView*)view withPadding:(NSInteger)padding;
@@ -48,6 +49,9 @@
 
 -(void)addAlign:(UIView*)top above:(UIView*)bottom;
 -(void)addAlign:(UIView*)top above:(UIView*)bottom withPadding:(NSInteger)padding;
+
+-(void)addStackVerticallyConstraints:(NSArray*)views;
+-(void)addStackHorizontallyConstraints:(NSArray*)views;
 
 +(void)setAllTranslatesAutoresizingMaskIntoConstraintsToNO:(UIView*)view;
 +(void)setMultipleTranslatesAutoresizingMaskIntoConstraintsToNO:(NSArray*)views;
