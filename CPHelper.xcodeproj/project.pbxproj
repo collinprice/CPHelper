@@ -7,25 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */; };
-		F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */; };
-		F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */; };
-		F04C283C17A6C32B006FD7B8 /* NumberHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5717A2DAD800D0564F /* NumberHelper.h */; };
-		F04C283D17A6C32B006FD7B8 /* Reachability.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
-		F04C283E17A6C32B006FD7B8 /* UIImage+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */; };
-		F04C283F17A6C32B006FD7B8 /* UILabel+Helpers.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */; };
-		F04C284017A6C32B006FD7B8 /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */; };
-		F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */; };
-		F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */; };
 		F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */; };
-		F05065BD17E684CC00E573D8 /* NSDictionary+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */; };
 		F0A02F7117AC17EA003C2A57 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */; };
 		F0A02F7317AC1868003C2A57 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A02F7217AC1868003C2A57 /* CoreData.framework */; };
-		F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
 		F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */; };
 		F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7817AC255400FBB189 /* IOHelper.m */; };
 		F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */; };
-		F0A70B8017B14EC800FBB189 /* UIView+Manipulate.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */; };
 		F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2DB3017A2D66800D0564F /* Foundation.framework */; };
 		F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */; };
 		F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */; };
@@ -39,67 +26,58 @@
 		F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */; };
 		F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */; };
 		F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0F17AAD644006677D9 /* NSString+Helper.m */; };
-		F0CFED1117AAD82F006677D9 /* UIImageView+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */; };
-		F0CFED1217AAD82F006677D9 /* NSString+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0E17AAD644006677D9 /* NSString+Helper.h */; };
 		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
-<<<<<<< HEAD
-		F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
-		F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
+		F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
+		F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
+		F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
+		F0DF376217E75276007C0A1A /* NumberHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5717A2DAD800D0564F /* NumberHelper.h */; };
+		F0DF376317E75276007C0A1A /* BundleHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */; };
+		F0DF376417E75276007C0A1A /* CustomSegmentedControl.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */; };
+		F0DF376517E75276007C0A1A /* CustomTabBarController.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */; };
+		F0DF376617E75276007C0A1A /* CustomTabBarItem.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */; };
+		F0DF376717E75276007C0A1A /* UIImage+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */; };
+		F0DF376817E75276007C0A1A /* UILabel+Helpers.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */; };
+		F0DF376917E75276007C0A1A /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */; };
+		F0DF376A17E75276007C0A1A /* UIView+CommonLayout.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */; };
+		F0DF376B17E75276007C0A1A /* UIViewController+ImageBackButton.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */; };
+		F0DF376C17E75276007C0A1A /* UIImageView+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */; };
+		F0DF376D17E75276007C0A1A /* NSString+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0E17AAD644006677D9 /* NSString+Helper.h */; };
+		F0DF376E17E75276007C0A1A /* UIView+Animations.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
+		F0DF376F17E75276007C0A1A /* UIView+Manipulate.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */; };
+		F0DF377017E75276007C0A1A /* UIWebView+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */; };
+		F0DF377117E75276007C0A1A /* UIImage+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */; };
+		F0DF377217E75276007C0A1A /* NSDictionary+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */; };
 		F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */; };
-		F0F0A04317CFC08800F6E66F /* UIWebView+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */; };
 		F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */; };
-		F0F0A19D17D909A200F6E66F /* UIImage+Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */; };
-=======
-		F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
-		F0F07DA817B960AF00037983 /* IOHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
->>>>>>> 6822a85c54852b8f9c65fd528dc0067de86e0c05
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		F0C2DB2B17A2D66800D0564F /* Copy Files (17 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-<<<<<<< HEAD
-				F0F0A19D17D909A200F6E66F /* UIImage+Helper.h in CopyFiles */,
-				F0F0A04317CFC08800F6E66F /* UIWebView+Helper.h in CopyFiles */,
-				F0F07DA817B960AF00037983 /* IOHelper.h in CopyFiles */,
-				F0A70B8017B14EC800FBB189 /* UIView+Manipulate.h in CopyFiles */,
-				F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in CopyFiles */,
-				F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in CopyFiles */,
-				F0CFED1117AAD82F006677D9 /* UIImageView+animatedGIF.h in CopyFiles */,
-				F0CFED1217AAD82F006677D9 /* NSString+Helper.h in CopyFiles */,
-				F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in CopyFiles */,
-				F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in CopyFiles */,
-				F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in CopyFiles */,
-				F04C283C17A6C32B006FD7B8 /* NumberHelper.h in CopyFiles */,
-				F04C283D17A6C32B006FD7B8 /* Reachability.h in CopyFiles */,
-				F04C283E17A6C32B006FD7B8 /* UIImage+animatedGIF.h in CopyFiles */,
-				F04C283F17A6C32B006FD7B8 /* UILabel+Helpers.h in CopyFiles */,
-				F04C284017A6C32B006FD7B8 /* UINavigationBar+CustomNavBar.h in CopyFiles */,
-				F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in CopyFiles */,
-				F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in CopyFiles */,
-=======
-				F05065BD17E684CC00E573D8 /* NSDictionary+Helper.h in Copy Files (17 items) */,
-				F0F07DA817B960AF00037983 /* IOHelper.h in Copy Files (17 items) */,
-				F0A70B8017B14EC800FBB189 /* UIView+Manipulate.h in Copy Files (17 items) */,
-				F0A70B5B17AC190D00FBB189 /* CoreDataWrapper.h in Copy Files (17 items) */,
-				F0CFEF6B17AAF26C006677D9 /* UIView+Animations.h in Copy Files (17 items) */,
-				F0CFED1117AAD82F006677D9 /* UIImageView+animatedGIF.h in Copy Files (17 items) */,
-				F0CFED1217AAD82F006677D9 /* NSString+Helper.h in Copy Files (17 items) */,
-				F04C283917A6C32B006FD7B8 /* CustomSegmentedControl.h in Copy Files (17 items) */,
-				F04C283A17A6C32B006FD7B8 /* CustomTabBarController.h in Copy Files (17 items) */,
-				F04C283B17A6C32B006FD7B8 /* CustomTabBarItem.h in Copy Files (17 items) */,
-				F04C283C17A6C32B006FD7B8 /* NumberHelper.h in Copy Files (17 items) */,
-				F04C283D17A6C32B006FD7B8 /* Reachability.h in Copy Files (17 items) */,
-				F04C283E17A6C32B006FD7B8 /* UIImage+animatedGIF.h in Copy Files (17 items) */,
-				F04C283F17A6C32B006FD7B8 /* UILabel+Helpers.h in Copy Files (17 items) */,
-				F04C284017A6C32B006FD7B8 /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */,
-				F04C284117A6C32B006FD7B8 /* UIView+CommonLayout.h in Copy Files (17 items) */,
-				F04C284317A6C32B006FD7B8 /* UIViewController+ImageBackButton.h in Copy Files (17 items) */,
->>>>>>> 6822a85c54852b8f9c65fd528dc0067de86e0c05
+				F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */,
+				F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */,
+				F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */,
+				F0DF376217E75276007C0A1A /* NumberHelper.h in Copy Files (17 items) */,
+				F0DF376317E75276007C0A1A /* BundleHelper.h in Copy Files (17 items) */,
+				F0DF376417E75276007C0A1A /* CustomSegmentedControl.h in Copy Files (17 items) */,
+				F0DF376517E75276007C0A1A /* CustomTabBarController.h in Copy Files (17 items) */,
+				F0DF376617E75276007C0A1A /* CustomTabBarItem.h in Copy Files (17 items) */,
+				F0DF376717E75276007C0A1A /* UIImage+animatedGIF.h in Copy Files (17 items) */,
+				F0DF376817E75276007C0A1A /* UILabel+Helpers.h in Copy Files (17 items) */,
+				F0DF376917E75276007C0A1A /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */,
+				F0DF376A17E75276007C0A1A /* UIView+CommonLayout.h in Copy Files (17 items) */,
+				F0DF376B17E75276007C0A1A /* UIViewController+ImageBackButton.h in Copy Files (17 items) */,
+				F0DF376C17E75276007C0A1A /* UIImageView+animatedGIF.h in Copy Files (17 items) */,
+				F0DF376D17E75276007C0A1A /* NSString+Helper.h in Copy Files (17 items) */,
+				F0DF376E17E75276007C0A1A /* UIView+Animations.h in Copy Files (17 items) */,
+				F0DF376F17E75276007C0A1A /* UIView+Manipulate.h in Copy Files (17 items) */,
+				F0DF377017E75276007C0A1A /* UIWebView+Helper.h in Copy Files (17 items) */,
+				F0DF377117E75276007C0A1A /* UIImage+Helper.h in Copy Files (17 items) */,
+				F0DF377217E75276007C0A1A /* NSDictionary+Helper.h in Copy Files (17 items) */,
 			);
 			name = "Copy Files (17 items)";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,15 +165,12 @@
 				F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */,
 				F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */,
 				F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */,
-<<<<<<< HEAD
 				F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */,
 				F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */,
 				F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */,
 				F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */,
-=======
 				F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */,
 				F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */,
->>>>>>> 6822a85c54852b8f9c65fd528dc0067de86e0c05
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -352,12 +327,9 @@
 				F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */,
 				F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */,
 				F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */,
-<<<<<<< HEAD
 				F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */,
 				F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */,
-=======
 				F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */,
->>>>>>> 6822a85c54852b8f9c65fd528dc0067de86e0c05
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
