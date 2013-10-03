@@ -432,6 +432,7 @@
 		F0C2DB3C17A2D66800D0564F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/CPHelper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
@@ -444,6 +445,7 @@
 		F0C2DB3D17A2D66800D0564F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/CPHelper.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
