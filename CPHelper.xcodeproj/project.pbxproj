@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */; };
+		F05065C417E8C0B400E573D8 /* CPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065C317E8C0B400E573D8 /* CPLocationManager.m */; };
+		F05065C517E8C36E00E573D8 /* CPLocationManager.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065C217E8C0B400E573D8 /* CPLocationManager.h */; };
+		F05065CB17E9E79800E573D8 /* UIView+Spinner.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065CA17E9E79800E573D8 /* UIView+Spinner.m */; };
+		F05065CC17E9E7AB00E573D8 /* UIView+Spinner.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065C917E9E79800E573D8 /* UIView+Spinner.h */; };
 		F0A02F7117AC17EA003C2A57 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */; };
 		F0A02F7317AC1868003C2A57 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A02F7217AC1868003C2A57 /* CoreData.framework */; };
+		F0A5EB9317ED372100523085 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5EB9217ED372100523085 /* NSURL+Helper.m */; };
+		F0A5EB9417ED3AD000523085 /* NSURL+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A5EB9117ED372100523085 /* NSURL+Helper.h */; };
+		F0A5EBB917F1CBDA00523085 /* UILocalNotification+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */; };
+		F0A5EBBA17F1DFD700523085 /* UILocalNotification+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */; };
 		F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */; };
 		F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7817AC255400FBB189 /* IOHelper.m */; };
 		F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */; };
@@ -27,6 +35,8 @@
 		F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */; };
 		F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0F17AAD644006677D9 /* NSString+Helper.m */; };
 		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
+		F0D2B7E117F3384B003C5E57 /* GoogleDirectionsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */; };
+		F0D2B7E517FB13CB003C5E57 /* GoogleDirectionsAPI.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */; };
 		F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
 		F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
 		F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
@@ -58,6 +68,11 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				F0D2B7E517FB13CB003C5E57 /* GoogleDirectionsAPI.h in Copy Files (17 items) */,
+				F0A5EBBA17F1DFD700523085 /* UILocalNotification+Helper.h in Copy Files (17 items) */,
+				F0A5EB9417ED3AD000523085 /* NSURL+Helper.h in Copy Files (17 items) */,
+				F05065CC17E9E7AB00E573D8 /* UIView+Spinner.h in Copy Files (17 items) */,
+				F05065C517E8C36E00E573D8 /* CPLocationManager.h in Copy Files (17 items) */,
 				F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */,
 				F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */,
 				F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */,
@@ -87,9 +102,17 @@
 /* Begin PBXFileReference section */
 		F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
 		F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
+		F05065C217E8C0B400E573D8 /* CPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLocationManager.h; sourceTree = "<group>"; };
+		F05065C317E8C0B400E573D8 /* CPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLocationManager.m; sourceTree = "<group>"; };
+		F05065C917E9E79800E573D8 /* UIView+Spinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spinner.h"; sourceTree = "<group>"; };
+		F05065CA17E9E79800E573D8 /* UIView+Spinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spinner.m"; sourceTree = "<group>"; };
 		F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWrapper.h; sourceTree = "<group>"; };
 		F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWrapper.m; sourceTree = "<group>"; };
 		F0A02F7217AC1868003C2A57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0A5EB9117ED372100523085 /* NSURL+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Helper.h"; sourceTree = "<group>"; };
+		F0A5EB9217ED372100523085 /* NSURL+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Helper.m"; sourceTree = "<group>"; };
+		F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILocalNotification+Helper.h"; sourceTree = "<group>"; };
+		F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILocalNotification+Helper.m"; sourceTree = "<group>"; };
 		F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleHelper.h; sourceTree = "<group>"; };
 		F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleHelper.m; sourceTree = "<group>"; };
 		F0A70B7717AC255400FBB189 /* IOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHelper.h; sourceTree = "<group>"; };
@@ -125,6 +148,8 @@
 		F0CFED0F17AAD644006677D9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 		F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
 		F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
+		F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionsAPI.h; sourceTree = "<group>"; };
+		F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionsAPI.m; sourceTree = "<group>"; };
 		F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Helper.h"; sourceTree = "<group>"; };
 		F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Helper.m"; sourceTree = "<group>"; };
 		F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
@@ -171,6 +196,12 @@
 				F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */,
 				F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */,
 				F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */,
+				F05065C917E9E79800E573D8 /* UIView+Spinner.h */,
+				F05065CA17E9E79800E573D8 /* UIView+Spinner.m */,
+				F0A5EB9117ED372100523085 /* NSURL+Helper.h */,
+				F0A5EB9217ED372100523085 /* NSURL+Helper.m */,
+				F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */,
+				F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -208,6 +239,10 @@
 				F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */,
 				F0A70B7717AC255400FBB189 /* IOHelper.h */,
 				F0A70B7817AC255400FBB189 /* IOHelper.m */,
+				F05065C217E8C0B400E573D8 /* CPLocationManager.h */,
+				F05065C317E8C0B400E573D8 /* CPLocationManager.m */,
+				F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */,
+				F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -312,6 +347,7 @@
 			files = (
 				F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */,
 				F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */,
+				F0A5EB9317ED372100523085 /* NSURL+Helper.m in Sources */,
 				F0C2DB6917A2DAD800D0564F /* CustomTabBarItem.m in Sources */,
 				F0C2DB6C17A2DAD800D0564F /* NumberHelper.m in Sources */,
 				F0C2DB6D17A2DAD800D0564F /* Reachability.m in Sources */,
@@ -327,9 +363,13 @@
 				F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */,
 				F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */,
 				F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */,
+				F0A5EBB917F1CBDA00523085 /* UILocalNotification+Helper.m in Sources */,
 				F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */,
 				F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */,
 				F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */,
+				F0D2B7E117F3384B003C5E57 /* GoogleDirectionsAPI.m in Sources */,
+				F05065C417E8C0B400E573D8 /* CPLocationManager.m in Sources */,
+				F05065CB17E9E79800E573D8 /* UIView+Spinner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

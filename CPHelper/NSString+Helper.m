@@ -52,4 +52,23 @@
     return strippedString;
 }
 
+-(NSString*)trim {
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
+-(NSString*)truncateTo:(NSInteger)length {
+    return [self truncateTo:length withEllipsis:NO];
+}
+
+-(NSString*)truncateTo:(NSInteger)length withEllipsis:(BOOL)ellipsis {
+    
+    if (self.length <= length) {
+        return self;
+    } else if (ellipsis) {
+        return [NSString stringWithFormat:@"%@...", [self substringToIndex:length-2]];
+    } else {
+        return [self substringToIndex:length+1];
+    }
+}
+
 @end

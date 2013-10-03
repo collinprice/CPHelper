@@ -11,5 +11,7 @@
 @interface NSDictionary (Helper)
 
 -(NSString*)stringFromKey:(NSString*)key;
+-(NSNumber*)intFromKey:(NSString*)key;
+-(NSNumber*)doubleFromKey:(NSString*)key;
 
 @end

@@ -15,5 +15,9 @@
 -(NSDictionary*)fileInfo;
 
 -(NSString*)onlyNumbers;
+-(NSString*)trim;
+
+-(NSString*)truncateTo:(NSInteger)length;
+-(NSString*)truncateTo:(NSInteger)length withEllipsis:(BOOL)ellipsis;
 
 @end

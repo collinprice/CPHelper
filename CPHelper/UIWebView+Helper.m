@@ -14,13 +14,11 @@
 +(UIWebView*)fromFile:(NSString*)filename {
     
     int index = [filename lastIndexOf:@"."];
-    
     if (index == -1) {
         return nil;
     }
     
     NSDictionary* fileinfo = [filename fileInfo];
-    
     if (fileinfo) {
         UIWebView* webView = [[UIWebView alloc] init];
         [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:fileinfo[@"base"] ofType:fileinfo[@"extension"]] isDirectory:NO]]];
@@ -28,6 +26,20 @@
     } else {
         return nil;
     }
+}
+
+-(void)loadFromFile:(NSString*)filename {
+    
+    int index = [filename lastIndexOf:@"."];
+    if (index == -1) {
+        return;
+    }
+    
+    NSDictionary* fileinfo = [filename fileInfo];
+    if (fileinfo) {
+        [self loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:fileinfo[@"base"] ofType:fileinfo[@"extension"]] isDirectory:NO]]];
+    }
+
 }
 
 -(float)contentHeight {

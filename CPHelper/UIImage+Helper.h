@@ -13,5 +13,11 @@
 -(UIImage*)convertToGrayscale;
 -(UIImage*)convertToGrayscaleWithAlpha:(float)alpha;
 
++(UIImage*)fromDocumentDirectory:(NSString*)filename;
++(UIImage*)imageFromURL:(NSString*)url;
+
+
+-(UIImage*)scaleToSize:(CGSize)newSize;
+-(UIImage*)scaleByFactor:(float)factor;
 
 @end

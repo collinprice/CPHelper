@@ -7,12 +7,17 @@
 //
 
 #import "BundleHelper.h"
+#import <UIKit/UIKit.h>
 
 @implementation BundleHelper
 
 +(NSString*)bundleName {
     
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
+}
+
++(NSInteger)systemVersion {
+    return [[[[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."] objectAtIndex:0] integerValue];
 }
 
 @end

@@ -46,4 +46,27 @@
     }
 }
 
++(NSArray*)requestJSONArray:(NSURL*)url {
+    
+    return [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:url]
+                                           options:kNilOptions
+                                             error:nil];
+}
+
++(NSDictionary*)requestJSONDictionary:(NSURL*)url {
+    
+    return [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:url]
+                                           options:kNilOptions
+                                             error:nil];
+}
+
++(NSString*)documentPath {
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+}
+
++(void)saveToDisk:(NSString*)filename {
+    
+     [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:filename];
+}
+
 @end

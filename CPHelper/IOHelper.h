@@ -13,4 +13,11 @@
 +(NSArray*)readJSONArray:(NSString*)filename;
 +(NSDictionary*)readJSONDictionary:(NSString*)filename;
 
++(NSArray*)requestJSONArray:(NSURL*)url;
++(NSDictionary*)requestJSONDictionary:(NSURL*)url;
+
++(NSString*)documentPath;
+
++(void)saveToDisk:(NSString*)filename;
+
 @end

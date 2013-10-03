@@ -13,4 +13,7 @@
 +(NSInteger)randomInt:(NSInteger)max;
 +(BOOL)randomBOOL;
 
++(float)degreesToRadians:(float)degrees;
++(float)radiansToDegrees:(float)radians;
+
 @end

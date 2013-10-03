@@ -11,8 +11,21 @@
 @implementation NSDictionary (Helper)
 
 -(NSString*)stringFromKey:(NSString*)key {
+
+    NSString* temp = [NSString stringWithFormat:@"%@", [self objectForKey:key]];
+    return [temp isEqualToString:@"<null>"] ? nil : temp;
+}
+
+-(NSNumber*)intFromKey:(NSString*)key {
+
+    NSString* temp = [NSString stringWithFormat:@"%@", [self objectForKey:key]];
+    return [temp isEqualToString:@"<null>"] ? nil : [NSNumber numberWithInteger:[temp integerValue]];
+}
+
+-(NSNumber*)doubleFromKey:(NSString*)key {
     
-    return [NSString stringWithFormat:@"%@", [self objectForKey:key]];
+    NSString* temp = [NSString stringWithFormat:@"%@", [self objectForKey:key]];
+    return [temp isEqualToString:@"<null>"] ? nil : [NSNumber numberWithDouble:[temp doubleValue]];
 }
 
 @end

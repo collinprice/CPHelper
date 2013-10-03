@@ -77,4 +77,36 @@ typedef enum {
     return [self convertToGrayscaleWithAlpha:1.0];
 }
 
++(UIImage*)fromDocumentDirectory:(NSString*)filename {
+    
+    NSString* documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    return [UIImage imageWithContentsOfFile:[documentDirectory stringByAppendingString:filename]];
+}
+
++(UIImage*)imageFromURL:(NSString*)url {
+    
+    NSData* imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]]];
+    return imageData ? [UIImage imageWithData: imageData] : nil;
+
+}
+
+-(UIImage*)scaleToSize:(CGSize)newSize {
+
+    UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
+    [self drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
+-(UIImage*)scaleByFactor:(float)factor {
+    
+    CGSize newSize = CGSizeMake(self.size.width*factor, self.size.height*factor);
+    UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
+    [self drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
 @end

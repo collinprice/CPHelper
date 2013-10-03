@@ -12,6 +12,7 @@
 
 +(UIWebView*)fromFile:(NSString*)filename;
 
+-(void)loadFromFile:(NSString*)filename;
 -(float)contentHeight;
 
 @end
