@@ -42,4 +42,22 @@ static NSString* googleDirectionURL = @"http://maps.googleapis.com/maps/api/dire
     return [IOHelper requestJSONDictionary:url];
 }
 
++(void)gpsDirectionsFromOrigin:(CLLocationCoordinate2D)loc1
+                          toDestination:(CLLocationCoordinate2D)loc2
+                           onCompletion:(void (^)(NSDictionary* directions))completion {
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void) {
+        
+        NSDictionary* params = @{
+                                 @"origin" : [NSString stringWithFormat:@"%f,%f", loc1.latitude, loc1.longitude],
+                                 @"destination" : [NSString stringWithFormat:@"%f,%f", loc2.latitude, loc2.longitude],
+                                 @"sensor" : @"false"
+                                 };
+        
+        NSURL* url = [NSURL url:googleDirectionURL withParams:params];
+
+        [IOHelper requestJSONDictionary:url withBlock:completion];
+    });
+}
+
 @end

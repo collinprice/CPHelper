@@ -20,8 +20,12 @@
 }
 
 -(void)addMultipleHorizontalFillConstraints:(NSArray*)views {
+    [self addMultipleHorizontalFillConstraints:views withPadding:0];
+}
+
+-(void)addMultipleHorizontalFillConstraints:(NSArray*)views withPadding:(NSInteger)padding {
     for (UIView* v in views) {
-        [self addHorizontalFillConstraints:v];
+        [self addHorizontalFillConstraints:v withPadding:padding];
     }
 }
 
@@ -34,8 +38,12 @@
 }
 
 -(void)addMultipleVerticalFillConstraints:(NSArray*)views {
+    [self addMultipleVerticalFillConstraints:views withPadding:0];
+}
+
+-(void)addMultipleVerticalFillConstraints:(NSArray*)views withPadding:(NSInteger)padding {
     for (UIView* v in views) {
-        [self addVerticalFillConstraints:v];
+        [self addVerticalFillConstraints:v withPadding:padding];
     }
 }
 

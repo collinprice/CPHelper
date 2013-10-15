@@ -17,4 +17,8 @@
 +(NSDictionary*)gpsDirectionsFromOrigin:(CLLocationCoordinate2D)loc1
                           toDestination:(CLLocationCoordinate2D)loc2;
 
++(void)gpsDirectionsFromOrigin:(CLLocationCoordinate2D)loc1
+                          toDestination:(CLLocationCoordinate2D)loc2
+                           onCompletion:(void (^)(NSDictionary* directions))completion;
+
 @end

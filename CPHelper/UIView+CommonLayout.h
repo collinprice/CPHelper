@@ -16,10 +16,12 @@
 -(void)addHorizontalFillConstraints:(UIView*)view;
 -(void)addHorizontalFillConstraints:(UIView*)view withPadding:(NSInteger)padding;
 -(void)addMultipleHorizontalFillConstraints:(NSArray*)views;
+-(void)addMultipleHorizontalFillConstraints:(NSArray*)views withPadding:(NSInteger)padding;
 
 -(void)addVerticalFillConstraints:(UIView*)view;
 -(void)addVerticalFillConstraints:(UIView*)view withPadding:(NSInteger)padding;
 -(void)addMultipleVerticalFillConstraints:(NSArray*)views;
+-(void)addMultipleVerticalFillConstraints:(NSArray*)views withPadding:(NSInteger)padding;
 
 -(void)addEvenHorizontalConstraints:(NSArray*)views;
 

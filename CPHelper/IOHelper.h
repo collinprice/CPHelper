@@ -15,6 +15,7 @@
 
 +(NSArray*)requestJSONArray:(NSURL*)url;
 +(NSDictionary*)requestJSONDictionary:(NSURL*)url;
++(void)requestJSONDictionary:(NSURL*)url withBlock:(void (^)(NSDictionary* json))block;
 
 +(NSString*)documentPath;
 

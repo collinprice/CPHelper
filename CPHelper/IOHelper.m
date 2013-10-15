@@ -60,6 +60,17 @@
                                              error:nil];
 }
 
++(void)requestJSONDictionary:(NSURL*)url withBlock:(void (^)(NSDictionary* json))block {
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void) {
+        
+        NSDictionary* data = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:url]
+                                        options:kNilOptions
+                                          error:nil];
+        block(data);
+    });
+}
+
 +(NSString*)documentPath {
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 }

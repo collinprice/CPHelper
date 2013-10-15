@@ -42,6 +42,7 @@
                 identifier:(NSString*)identifier {
     
     CLRegion* region = [[CLRegion alloc] initCircularRegionWithCenter:location radius:radius identifier:identifier];
+//    [_locationManager startMonitoringForRegion:[[CLCircularRegion alloc] initWithCenter:location radius:radius identifier:identifier]];
     [_locationManager startMonitoringForRegion:region];
 }
 
