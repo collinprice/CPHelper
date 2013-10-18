@@ -36,7 +36,6 @@
 		F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0F17AAD644006677D9 /* NSString+Helper.m */; };
 		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
 		F0D2B7E117F3384B003C5E57 /* GoogleDirectionsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */; };
-		F0D2B7E517FB13CB003C5E57 /* GoogleDirectionsAPI.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */; };
 		F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
 		F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
 		F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
@@ -59,6 +58,7 @@
 		F0DF377217E75276007C0A1A /* NSDictionary+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */; };
 		F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */; };
 		F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */; };
+		F0F397341811848300911014 /* GoogleDirectionsAPI.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,7 +68,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				F0D2B7E517FB13CB003C5E57 /* GoogleDirectionsAPI.h in Copy Files (17 items) */,
+				F0F397341811848300911014 /* GoogleDirectionsAPI.h in Copy Files (17 items) */,
 				F0A5EBBA17F1DFD700523085 /* UILocalNotification+Helper.h in Copy Files (17 items) */,
 				F0A5EB9417ED3AD000523085 /* NSURL+Helper.h in Copy Files (17 items) */,
 				F05065CC17E9E7AB00E573D8 /* UIView+Spinner.h in Copy Files (17 items) */,
@@ -438,9 +438,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -453,9 +455,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
