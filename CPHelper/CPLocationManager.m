@@ -41,8 +41,16 @@
                     radius:(CLLocationDegrees)radius
                 identifier:(NSString*)identifier {
     
-    CLRegion* region = [[CLRegion alloc] initCircularRegionWithCenter:location radius:radius identifier:identifier];
-//    [_locationManager startMonitoringForRegion:[[CLCircularRegion alloc] initWithCenter:location radius:radius identifier:identifier]];
+    CLRegion* region;
+    if ([CLCircularRegion class]) {
+        region = [[CLCircularRegion alloc] initWithCenter:location radius:radius identifier:identifier];
+    } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        region = [[CLRegion alloc] initCircularRegionWithCenter:location radius:radius identifier:identifier];
+#pragma clang diagnostic pop
+    }
+    
     [_locationManager startMonitoringForRegion:region];
 }
 

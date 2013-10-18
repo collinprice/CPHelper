@@ -7,303 +7,297 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */; };
-		F05065C417E8C0B400E573D8 /* CPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065C317E8C0B400E573D8 /* CPLocationManager.m */; };
-		F05065C517E8C36E00E573D8 /* CPLocationManager.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065C217E8C0B400E573D8 /* CPLocationManager.h */; };
-		F05065CB17E9E79800E573D8 /* UIView+Spinner.m in Sources */ = {isa = PBXBuildFile; fileRef = F05065CA17E9E79800E573D8 /* UIView+Spinner.m */; };
-		F05065CC17E9E7AB00E573D8 /* UIView+Spinner.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065C917E9E79800E573D8 /* UIView+Spinner.h */; };
-		F0A02F7117AC17EA003C2A57 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */; };
-		F0A02F7317AC1868003C2A57 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A02F7217AC1868003C2A57 /* CoreData.framework */; };
-		F0A5EB9317ED372100523085 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5EB9217ED372100523085 /* NSURL+Helper.m */; };
-		F0A5EB9417ED3AD000523085 /* NSURL+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A5EB9117ED372100523085 /* NSURL+Helper.h */; };
-		F0A5EBB917F1CBDA00523085 /* UILocalNotification+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */; };
-		F0A5EBBA17F1DFD700523085 /* UILocalNotification+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */; };
-		F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */; };
-		F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7817AC255400FBB189 /* IOHelper.m */; };
-		F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */; };
-		F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2DB3017A2D66800D0564F /* Foundation.framework */; };
-		F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */; };
-		F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */; };
-		F0C2DB6917A2DAD800D0564F /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */; };
-		F0C2DB6C17A2DAD800D0564F /* NumberHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5817A2DAD800D0564F /* NumberHelper.m */; };
-		F0C2DB6D17A2DAD800D0564F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5A17A2DAD800D0564F /* Reachability.m */; };
-		F0C2DB6E17A2DAD800D0564F /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */; };
-		F0C2DB6F17A2DAD800D0564F /* UILabel+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */; };
-		F0C2DB7017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */; };
-		F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */; };
-		F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */; };
-		F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */; };
-		F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFED0F17AAD644006677D9 /* NSString+Helper.m */; };
-		F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */; };
-		F0D2B7E117F3384B003C5E57 /* GoogleDirectionsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */; };
-		F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5917A2DAD800D0564F /* Reachability.h */; };
-		F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */; };
-		F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7717AC255400FBB189 /* IOHelper.h */; };
-		F0DF376217E75276007C0A1A /* NumberHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5717A2DAD800D0564F /* NumberHelper.h */; };
-		F0DF376317E75276007C0A1A /* BundleHelper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */; };
-		F0DF376417E75276007C0A1A /* CustomSegmentedControl.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */; };
-		F0DF376517E75276007C0A1A /* CustomTabBarController.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */; };
-		F0DF376617E75276007C0A1A /* CustomTabBarItem.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */; };
-		F0DF376717E75276007C0A1A /* UIImage+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */; };
-		F0DF376817E75276007C0A1A /* UILabel+Helpers.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */; };
-		F0DF376917E75276007C0A1A /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */; };
-		F0DF376A17E75276007C0A1A /* UIView+CommonLayout.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */; };
-		F0DF376B17E75276007C0A1A /* UIViewController+ImageBackButton.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */; };
-		F0DF376C17E75276007C0A1A /* UIImageView+animatedGIF.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */; };
-		F0DF376D17E75276007C0A1A /* NSString+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFED0E17AAD644006677D9 /* NSString+Helper.h */; };
-		F0DF376E17E75276007C0A1A /* UIView+Animations.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */; };
-		F0DF376F17E75276007C0A1A /* UIView+Manipulate.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */; };
-		F0DF377017E75276007C0A1A /* UIWebView+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */; };
-		F0DF377117E75276007C0A1A /* UIImage+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */; };
-		F0DF377217E75276007C0A1A /* NSDictionary+Helper.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */; };
-		F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */; };
-		F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */; };
-		F0F397341811848300911014 /* GoogleDirectionsAPI.h in Copy Files (17 items) */ = {isa = PBXBuildFile; fileRef = F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */; };
+		F0FCD5781811C7A500FA0136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FCD5771811C7A500FA0136 /* Foundation.framework */; };
+		F0FCD57E1811C7A500FA0136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0FCD57C1811C7A500FA0136 /* InfoPlist.strings */; };
+		F0FCD5881811C82A00FA0136 /* CPHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5801811C7A500FA0136 /* CPHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5C11811CA0A00FA0136 /* BundleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD58F1811CA0A00FA0136 /* BundleHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5C21811CA0A00FA0136 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5901811CA0A00FA0136 /* BundleHelper.m */; };
+		F0FCD5C31811CA0A00FA0136 /* CoreDataWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5911811CA0A00FA0136 /* CoreDataWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5C41811CA0A00FA0136 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5921811CA0A00FA0136 /* CoreDataWrapper.m */; };
+		F0FCD5C51811CA0A00FA0136 /* CPLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5931811CA0A00FA0136 /* CPLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5C61811CA0A00FA0136 /* CPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5941811CA0A00FA0136 /* CPLocationManager.m */; };
+		F0FCD5C71811CA0A00FA0136 /* CustomSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5951811CA0A00FA0136 /* CustomSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5C81811CA0A00FA0136 /* CustomSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5961811CA0A00FA0136 /* CustomSegmentedControl.m */; };
+		F0FCD5C91811CA0A00FA0136 /* CustomTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5971811CA0A00FA0136 /* CustomTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5CA1811CA0A00FA0136 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5981811CA0A00FA0136 /* CustomTabBarController.m */; };
+		F0FCD5CB1811CA0A00FA0136 /* CustomTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5991811CA0A00FA0136 /* CustomTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5CC1811CA0A00FA0136 /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD59A1811CA0A00FA0136 /* CustomTabBarItem.m */; };
+		F0FCD5CD1811CA0A00FA0136 /* GoogleDirectionsAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD59B1811CA0A00FA0136 /* GoogleDirectionsAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5CE1811CA0A00FA0136 /* GoogleDirectionsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD59C1811CA0A00FA0136 /* GoogleDirectionsAPI.m */; };
+		F0FCD5CF1811CA0A00FA0136 /* IOHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD59D1811CA0A00FA0136 /* IOHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5D01811CA0A00FA0136 /* IOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD59E1811CA0A00FA0136 /* IOHelper.m */; };
+		F0FCD5D11811CA0A00FA0136 /* NSDictionary+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD59F1811CA0A00FA0136 /* NSDictionary+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5D21811CA0A00FA0136 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5A01811CA0A00FA0136 /* NSDictionary+Helper.m */; };
+		F0FCD5D31811CA0A00FA0136 /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5A11811CA0A00FA0136 /* NSString+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5D41811CA0A00FA0136 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5A21811CA0A00FA0136 /* NSString+Helper.m */; };
+		F0FCD5D51811CA0A00FA0136 /* NSURL+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5A31811CA0A00FA0136 /* NSURL+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5D61811CA0A00FA0136 /* NSURL+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5A41811CA0A00FA0136 /* NSURL+Helper.m */; };
+		F0FCD5D71811CA0A00FA0136 /* NumberHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5A51811CA0A00FA0136 /* NumberHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5D81811CA0A00FA0136 /* NumberHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5A61811CA0A00FA0136 /* NumberHelper.m */; };
+		F0FCD5D91811CA0A00FA0136 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5A71811CA0A00FA0136 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5DA1811CA0A00FA0136 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5A81811CA0A00FA0136 /* Reachability.m */; };
+		F0FCD5DB1811CA0A00FA0136 /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5A91811CA0A00FA0136 /* UIImage+animatedGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5DC1811CA0A00FA0136 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5AA1811CA0A00FA0136 /* UIImage+animatedGIF.m */; };
+		F0FCD5DD1811CA0A00FA0136 /* UIImage+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5AB1811CA0A00FA0136 /* UIImage+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5DE1811CA0A00FA0136 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5AC1811CA0A00FA0136 /* UIImage+Helper.m */; };
+		F0FCD5DF1811CA0A00FA0136 /* UIImageView+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5AD1811CA0A00FA0136 /* UIImageView+animatedGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5E01811CA0A00FA0136 /* UIImageView+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5AE1811CA0A00FA0136 /* UIImageView+animatedGIF.m */; };
+		F0FCD5E11811CA0A00FA0136 /* UILabel+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5AF1811CA0A00FA0136 /* UILabel+Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5E21811CA0A00FA0136 /* UILabel+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5B01811CA0A00FA0136 /* UILabel+Helpers.m */; };
+		F0FCD5E31811CA0A00FA0136 /* UILocalNotification+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5B11811CA0A00FA0136 /* UILocalNotification+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5E41811CA0A00FA0136 /* UILocalNotification+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5B21811CA0A00FA0136 /* UILocalNotification+Helper.m */; };
+		F0FCD5E71811CA0A00FA0136 /* UIView+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5B51811CA0A00FA0136 /* UIView+Animations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5E81811CA0A00FA0136 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5B61811CA0A00FA0136 /* UIView+Animations.m */; };
+		F0FCD5E91811CA0A00FA0136 /* UIView+CommonLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5B71811CA0A00FA0136 /* UIView+CommonLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5EA1811CA0A00FA0136 /* UIView+CommonLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5B81811CA0A00FA0136 /* UIView+CommonLayout.m */; };
+		F0FCD5EB1811CA0A00FA0136 /* UIView+Manipulate.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5B91811CA0A00FA0136 /* UIView+Manipulate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5EC1811CA0A00FA0136 /* UIView+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5BA1811CA0A00FA0136 /* UIView+Manipulate.m */; };
+		F0FCD5EF1811CA0A00FA0136 /* UIViewController+ImageBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5BD1811CA0A00FA0136 /* UIViewController+ImageBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5F01811CA0A00FA0136 /* UIViewController+ImageBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5BE1811CA0A00FA0136 /* UIViewController+ImageBackButton.m */; };
+		F0FCD5F11811CA0A00FA0136 /* UIWebView+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5BF1811CA0A00FA0136 /* UIWebView+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FCD5F21811CA0A00FA0136 /* UIWebView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD5C01811CA0A00FA0136 /* UIWebView+Helper.m */; };
+		F0FCD5F81811CA9C00FA0136 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FCD5F71811CA9C00FA0136 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F0C2DB2B17A2D66800D0564F /* Copy Files (17 items) */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				F0F397341811848300911014 /* GoogleDirectionsAPI.h in Copy Files (17 items) */,
-				F0A5EBBA17F1DFD700523085 /* UILocalNotification+Helper.h in Copy Files (17 items) */,
-				F0A5EB9417ED3AD000523085 /* NSURL+Helper.h in Copy Files (17 items) */,
-				F05065CC17E9E7AB00E573D8 /* UIView+Spinner.h in Copy Files (17 items) */,
-				F05065C517E8C36E00E573D8 /* CPLocationManager.h in Copy Files (17 items) */,
-				F0DF375F17E75276007C0A1A /* Reachability.h in Copy Files (17 items) */,
-				F0DF376017E75276007C0A1A /* CoreDataWrapper.h in Copy Files (17 items) */,
-				F0DF376117E75276007C0A1A /* IOHelper.h in Copy Files (17 items) */,
-				F0DF376217E75276007C0A1A /* NumberHelper.h in Copy Files (17 items) */,
-				F0DF376317E75276007C0A1A /* BundleHelper.h in Copy Files (17 items) */,
-				F0DF376417E75276007C0A1A /* CustomSegmentedControl.h in Copy Files (17 items) */,
-				F0DF376517E75276007C0A1A /* CustomTabBarController.h in Copy Files (17 items) */,
-				F0DF376617E75276007C0A1A /* CustomTabBarItem.h in Copy Files (17 items) */,
-				F0DF376717E75276007C0A1A /* UIImage+animatedGIF.h in Copy Files (17 items) */,
-				F0DF376817E75276007C0A1A /* UILabel+Helpers.h in Copy Files (17 items) */,
-				F0DF376917E75276007C0A1A /* UINavigationBar+CustomNavBar.h in Copy Files (17 items) */,
-				F0DF376A17E75276007C0A1A /* UIView+CommonLayout.h in Copy Files (17 items) */,
-				F0DF376B17E75276007C0A1A /* UIViewController+ImageBackButton.h in Copy Files (17 items) */,
-				F0DF376C17E75276007C0A1A /* UIImageView+animatedGIF.h in Copy Files (17 items) */,
-				F0DF376D17E75276007C0A1A /* NSString+Helper.h in Copy Files (17 items) */,
-				F0DF376E17E75276007C0A1A /* UIView+Animations.h in Copy Files (17 items) */,
-				F0DF376F17E75276007C0A1A /* UIView+Manipulate.h in Copy Files (17 items) */,
-				F0DF377017E75276007C0A1A /* UIWebView+Helper.h in Copy Files (17 items) */,
-				F0DF377117E75276007C0A1A /* UIImage+Helper.h in Copy Files (17 items) */,
-				F0DF377217E75276007C0A1A /* NSDictionary+Helper.h in Copy Files (17 items) */,
-			);
-			name = "Copy Files (17 items)";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
-		F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
-		F05065C217E8C0B400E573D8 /* CPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLocationManager.h; sourceTree = "<group>"; };
-		F05065C317E8C0B400E573D8 /* CPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLocationManager.m; sourceTree = "<group>"; };
-		F05065C917E9E79800E573D8 /* UIView+Spinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spinner.h"; sourceTree = "<group>"; };
-		F05065CA17E9E79800E573D8 /* UIView+Spinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spinner.m"; sourceTree = "<group>"; };
-		F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWrapper.h; sourceTree = "<group>"; };
-		F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWrapper.m; sourceTree = "<group>"; };
-		F0A02F7217AC1868003C2A57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F0A5EB9117ED372100523085 /* NSURL+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Helper.h"; sourceTree = "<group>"; };
-		F0A5EB9217ED372100523085 /* NSURL+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Helper.m"; sourceTree = "<group>"; };
-		F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILocalNotification+Helper.h"; sourceTree = "<group>"; };
-		F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILocalNotification+Helper.m"; sourceTree = "<group>"; };
-		F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleHelper.h; sourceTree = "<group>"; };
-		F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleHelper.m; sourceTree = "<group>"; };
-		F0A70B7717AC255400FBB189 /* IOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHelper.h; sourceTree = "<group>"; };
-		F0A70B7817AC255400FBB189 /* IOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOHelper.m; sourceTree = "<group>"; };
-		F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Manipulate.h"; sourceTree = "<group>"; };
-		F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Manipulate.m"; sourceTree = "<group>"; };
-		F0C2DB2D17A2D66800D0564F /* libCPHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCPHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0C2DB3017A2D66800D0564F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHelper-Prefix.pch"; sourceTree = "<group>"; };
-		F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedControl.h; sourceTree = "<group>"; };
-		F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedControl.m; sourceTree = "<group>"; };
-		F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
-		F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
-		F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarItem.h; sourceTree = "<group>"; };
-		F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarItem.m; sourceTree = "<group>"; };
-		F0C2DB5717A2DAD800D0564F /* NumberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberHelper.h; sourceTree = "<group>"; };
-		F0C2DB5817A2DAD800D0564F /* NumberHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHelper.m; sourceTree = "<group>"; };
-		F0C2DB5917A2DAD800D0564F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		F0C2DB5A17A2DAD800D0564F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
-		F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
-		F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helpers.h"; sourceTree = "<group>"; };
-		F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helpers.m"; sourceTree = "<group>"; };
-		F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomNavBar.h"; sourceTree = "<group>"; };
-		F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomNavBar.m"; sourceTree = "<group>"; };
-		F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonLayout.h"; sourceTree = "<group>"; };
-		F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonLayout.m"; sourceTree = "<group>"; };
-		F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ImageBackButton.h"; sourceTree = "<group>"; };
-		F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ImageBackButton.m"; sourceTree = "<group>"; };
-		F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+animatedGIF.h"; sourceTree = "<group>"; };
-		F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+animatedGIF.m"; sourceTree = "<group>"; };
-		F0CFED0E17AAD644006677D9 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
-		F0CFED0F17AAD644006677D9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
-		F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
-		F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
-		F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionsAPI.h; sourceTree = "<group>"; };
-		F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionsAPI.m; sourceTree = "<group>"; };
-		F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Helper.h"; sourceTree = "<group>"; };
-		F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Helper.m"; sourceTree = "<group>"; };
-		F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
-		F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5741811C7A500FA0136 /* CPHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = CPHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FCD5771811C7A500FA0136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0FCD57B1811C7A500FA0136 /* CPHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPHelper-Info.plist"; sourceTree = "<group>"; };
+		F0FCD57D1811C7A500FA0136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0FCD57F1811C7A500FA0136 /* CPHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPHelper-Prefix.pch"; sourceTree = "<group>"; };
+		F0FCD5801811C7A500FA0136 /* CPHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPHelper.h; sourceTree = "<group>"; };
+		F0FCD58F1811CA0A00FA0136 /* BundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleHelper.h; sourceTree = "<group>"; };
+		F0FCD5901811CA0A00FA0136 /* BundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleHelper.m; sourceTree = "<group>"; };
+		F0FCD5911811CA0A00FA0136 /* CoreDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWrapper.h; sourceTree = "<group>"; };
+		F0FCD5921811CA0A00FA0136 /* CoreDataWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWrapper.m; sourceTree = "<group>"; };
+		F0FCD5931811CA0A00FA0136 /* CPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLocationManager.h; sourceTree = "<group>"; };
+		F0FCD5941811CA0A00FA0136 /* CPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLocationManager.m; sourceTree = "<group>"; };
+		F0FCD5951811CA0A00FA0136 /* CustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedControl.h; sourceTree = "<group>"; };
+		F0FCD5961811CA0A00FA0136 /* CustomSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentedControl.m; sourceTree = "<group>"; };
+		F0FCD5971811CA0A00FA0136 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		F0FCD5981811CA0A00FA0136 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		F0FCD5991811CA0A00FA0136 /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarItem.h; sourceTree = "<group>"; };
+		F0FCD59A1811CA0A00FA0136 /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarItem.m; sourceTree = "<group>"; };
+		F0FCD59B1811CA0A00FA0136 /* GoogleDirectionsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionsAPI.h; sourceTree = "<group>"; };
+		F0FCD59C1811CA0A00FA0136 /* GoogleDirectionsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionsAPI.m; sourceTree = "<group>"; };
+		F0FCD59D1811CA0A00FA0136 /* IOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHelper.h; sourceTree = "<group>"; };
+		F0FCD59E1811CA0A00FA0136 /* IOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOHelper.m; sourceTree = "<group>"; };
+		F0FCD59F1811CA0A00FA0136 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5A01811CA0A00FA0136 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5A11811CA0A00FA0136 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5A21811CA0A00FA0136 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5A31811CA0A00FA0136 /* NSURL+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5A41811CA0A00FA0136 /* NSURL+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5A51811CA0A00FA0136 /* NumberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberHelper.h; sourceTree = "<group>"; };
+		F0FCD5A61811CA0A00FA0136 /* NumberHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHelper.m; sourceTree = "<group>"; };
+		F0FCD5A71811CA0A00FA0136 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F0FCD5A81811CA0A00FA0136 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F0FCD5A91811CA0A00FA0136 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		F0FCD5AA1811CA0A00FA0136 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		F0FCD5AB1811CA0A00FA0136 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5AC1811CA0A00FA0136 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5AD1811CA0A00FA0136 /* UIImageView+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+animatedGIF.h"; sourceTree = "<group>"; };
+		F0FCD5AE1811CA0A00FA0136 /* UIImageView+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+animatedGIF.m"; sourceTree = "<group>"; };
+		F0FCD5AF1811CA0A00FA0136 /* UILabel+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helpers.h"; sourceTree = "<group>"; };
+		F0FCD5B01811CA0A00FA0136 /* UILabel+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helpers.m"; sourceTree = "<group>"; };
+		F0FCD5B11811CA0A00FA0136 /* UILocalNotification+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILocalNotification+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5B21811CA0A00FA0136 /* UILocalNotification+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILocalNotification+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5B51811CA0A00FA0136 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animations.h"; sourceTree = "<group>"; };
+		F0FCD5B61811CA0A00FA0136 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
+		F0FCD5B71811CA0A00FA0136 /* UIView+CommonLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonLayout.h"; sourceTree = "<group>"; };
+		F0FCD5B81811CA0A00FA0136 /* UIView+CommonLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonLayout.m"; sourceTree = "<group>"; };
+		F0FCD5B91811CA0A00FA0136 /* UIView+Manipulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Manipulate.h"; sourceTree = "<group>"; };
+		F0FCD5BA1811CA0A00FA0136 /* UIView+Manipulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Manipulate.m"; sourceTree = "<group>"; };
+		F0FCD5BD1811CA0A00FA0136 /* UIViewController+ImageBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ImageBackButton.h"; sourceTree = "<group>"; };
+		F0FCD5BE1811CA0A00FA0136 /* UIViewController+ImageBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ImageBackButton.m"; sourceTree = "<group>"; };
+		F0FCD5BF1811CA0A00FA0136 /* UIWebView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Helper.h"; sourceTree = "<group>"; };
+		F0FCD5C01811CA0A00FA0136 /* UIWebView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Helper.m"; sourceTree = "<group>"; };
+		F0FCD5F71811CA9C00FA0136 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0C2DB2A17A2D66800D0564F /* Frameworks */ = {
+		F0FCD56F1811C7A500FA0136 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A02F7317AC1868003C2A57 /* CoreData.framework in Frameworks */,
-				F0C2DB3117A2D66800D0564F /* Foundation.framework in Frameworks */,
+				F0FCD5F81811CA9C00FA0136 /* CoreData.framework in Frameworks */,
+				F0FCD5781811C7A500FA0136 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F0A02F6A17AC1740003C2A57 /* Category */ = {
+		F0FCD5691811C7A500FA0136 = {
 			isa = PBXGroup;
 			children = (
-				F0C2DB5B17A2DAD800D0564F /* UIImage+animatedGIF.h */,
-				F0C2DB5C17A2DAD800D0564F /* UIImage+animatedGIF.m */,
-				F0C2DB5D17A2DAD800D0564F /* UILabel+Helpers.h */,
-				F0C2DB5E17A2DAD800D0564F /* UILabel+Helpers.m */,
-				F0C2DB5F17A2DAD800D0564F /* UINavigationBar+CustomNavBar.h */,
-				F0C2DB6017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m */,
-				F0C2DB6117A2DAD800D0564F /* UIView+CommonLayout.h */,
-				F0C2DB6217A2DAD800D0564F /* UIView+CommonLayout.m */,
-				F0C2DB6517A2DAD800D0564F /* UIViewController+ImageBackButton.h */,
-				F0C2DB6617A2DAD800D0564F /* UIViewController+ImageBackButton.m */,
-				F0CFED0B17AAD4DE006677D9 /* UIImageView+animatedGIF.h */,
-				F0CFED0C17AAD4DE006677D9 /* UIImageView+animatedGIF.m */,
-				F0CFED0E17AAD644006677D9 /* NSString+Helper.h */,
-				F0CFED0F17AAD644006677D9 /* NSString+Helper.m */,
-				F0CFEF6117AAEDA5006677D9 /* UIView+Animations.h */,
-				F0CFEF6217AAEDA5006677D9 /* UIView+Animations.m */,
-				F0A70B7D17B14EBF00FBB189 /* UIView+Manipulate.h */,
-				F0A70B7E17B14EBF00FBB189 /* UIView+Manipulate.m */,
-				F0F0A04017CFBFB400F6E66F /* UIWebView+Helper.h */,
-				F0F0A04117CFBFB400F6E66F /* UIWebView+Helper.m */,
-				F0F0A19A17D9092F00F6E66F /* UIImage+Helper.h */,
-				F0F0A19B17D9092F00F6E66F /* UIImage+Helper.m */,
-				F05065BA17E684BD00E573D8 /* NSDictionary+Helper.h */,
-				F05065BB17E684BD00E573D8 /* NSDictionary+Helper.m */,
-				F05065C917E9E79800E573D8 /* UIView+Spinner.h */,
-				F05065CA17E9E79800E573D8 /* UIView+Spinner.m */,
-				F0A5EB9117ED372100523085 /* NSURL+Helper.h */,
-				F0A5EB9217ED372100523085 /* NSURL+Helper.m */,
-				F0A5EBB717F1CBDA00523085 /* UILocalNotification+Helper.h */,
-				F0A5EBB817F1CBDA00523085 /* UILocalNotification+Helper.m */,
-			);
-			name = Category;
-			sourceTree = "<group>";
-		};
-		F0A02F6B17AC1748003C2A57 /* Subclass */ = {
-			isa = PBXGroup;
-			children = (
-				F0C2DB4D17A2DAD800D0564F /* CustomSegmentedControl.h */,
-				F0C2DB4E17A2DAD800D0564F /* CustomSegmentedControl.m */,
-				F0C2DB4F17A2DAD800D0564F /* CustomTabBarController.h */,
-				F0C2DB5017A2DAD800D0564F /* CustomTabBarController.m */,
-				F0C2DB5117A2DAD800D0564F /* CustomTabBarItem.h */,
-				F0C2DB5217A2DAD800D0564F /* CustomTabBarItem.m */,
-			);
-			name = Subclass;
-			sourceTree = "<group>";
-		};
-		F0A02F6D17AC176A003C2A57 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				F0C2DB5717A2DAD800D0564F /* NumberHelper.h */,
-				F0C2DB5817A2DAD800D0564F /* NumberHelper.m */,
-				F0A70B5F17AC1C4C00FBB189 /* BundleHelper.h */,
-				F0A70B6017AC1C4C00FBB189 /* BundleHelper.m */,
-			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
-		F0A02F6E17AC177F003C2A57 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				F0C2DB5917A2DAD800D0564F /* Reachability.h */,
-				F0C2DB5A17A2DAD800D0564F /* Reachability.m */,
-				F0A02F6F17AC17EA003C2A57 /* CoreDataWrapper.h */,
-				F0A02F7017AC17EA003C2A57 /* CoreDataWrapper.m */,
-				F0A70B7717AC255400FBB189 /* IOHelper.h */,
-				F0A70B7817AC255400FBB189 /* IOHelper.m */,
-				F05065C217E8C0B400E573D8 /* CPLocationManager.h */,
-				F05065C317E8C0B400E573D8 /* CPLocationManager.m */,
-				F0D2B7DF17F3384B003C5E57 /* GoogleDirectionsAPI.h */,
-				F0D2B7E017F3384B003C5E57 /* GoogleDirectionsAPI.m */,
-			);
-			name = Utility;
-			sourceTree = "<group>";
-		};
-		F0C2DB2417A2D66800D0564F = {
-			isa = PBXGroup;
-			children = (
-				F0C2DB3217A2D66800D0564F /* CPHelper */,
-				F0C2DB3317A2D66800D0564F /* Supporting Files */,
-				F0C2DB2F17A2D66800D0564F /* Frameworks */,
-				F0C2DB2E17A2D66800D0564F /* Products */,
+				F0FCD5791811C7A500FA0136 /* CPHelper */,
+				F0FCD5761811C7A500FA0136 /* Frameworks */,
+				F0FCD57A1811C7A500FA0136 /* Supporting Files */,
+				F0FCD5751811C7A500FA0136 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F0C2DB2E17A2D66800D0564F /* Products */ = {
+		F0FCD5751811C7A500FA0136 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0C2DB2D17A2D66800D0564F /* libCPHelper.a */,
+				F0FCD5741811C7A500FA0136 /* CPHelper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0C2DB2F17A2D66800D0564F /* Frameworks */ = {
+		F0FCD5761811C7A500FA0136 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0A02F7217AC1868003C2A57 /* CoreData.framework */,
-				F0C2DB3017A2D66800D0564F /* Foundation.framework */,
+				F0FCD5F71811CA9C00FA0136 /* CoreData.framework */,
+				F0FCD5771811C7A500FA0136 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0C2DB3217A2D66800D0564F /* CPHelper */ = {
+		F0FCD5791811C7A500FA0136 /* CPHelper */ = {
 			isa = PBXGroup;
 			children = (
-				F0A02F6E17AC177F003C2A57 /* Utility */,
-				F0A02F6D17AC176A003C2A57 /* Helper */,
-				F0A02F6B17AC1748003C2A57 /* Subclass */,
-				F0A02F6A17AC1740003C2A57 /* Category */,
+				F0FCD5801811C7A500FA0136 /* CPHelper.h */,
+				F0FCD5F61811CA2E00FA0136 /* Category */,
+				F0FCD5F51811CA2800FA0136 /* Subclass */,
+				F0FCD5F41811CA2600FA0136 /* Helper */,
+				F0FCD5F31811CA2100FA0136 /* Utility */,
 			);
 			path = CPHelper;
 			sourceTree = "<group>";
 		};
-		F0C2DB3317A2D66800D0564F /* Supporting Files */ = {
+		F0FCD57A1811C7A500FA0136 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0C2DB3417A2D66800D0564F /* CPHelper-Prefix.pch */,
+				F0FCD57B1811C7A500FA0136 /* CPHelper-Info.plist */,
+				F0FCD57C1811C7A500FA0136 /* InfoPlist.strings */,
+				F0FCD57F1811C7A500FA0136 /* CPHelper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = CPHelper;
 			sourceTree = "<group>";
 		};
+		F0FCD5F31811CA2100FA0136 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCD5911811CA0A00FA0136 /* CoreDataWrapper.h */,
+				F0FCD5921811CA0A00FA0136 /* CoreDataWrapper.m */,
+				F0FCD5931811CA0A00FA0136 /* CPLocationManager.h */,
+				F0FCD5941811CA0A00FA0136 /* CPLocationManager.m */,
+				F0FCD5A71811CA0A00FA0136 /* Reachability.h */,
+				F0FCD5A81811CA0A00FA0136 /* Reachability.m */,
+				F0FCD59B1811CA0A00FA0136 /* GoogleDirectionsAPI.h */,
+				F0FCD59C1811CA0A00FA0136 /* GoogleDirectionsAPI.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		F0FCD5F41811CA2600FA0136 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCD5A51811CA0A00FA0136 /* NumberHelper.h */,
+				F0FCD5A61811CA0A00FA0136 /* NumberHelper.m */,
+				F0FCD59D1811CA0A00FA0136 /* IOHelper.h */,
+				F0FCD59E1811CA0A00FA0136 /* IOHelper.m */,
+				F0FCD58F1811CA0A00FA0136 /* BundleHelper.h */,
+				F0FCD5901811CA0A00FA0136 /* BundleHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F0FCD5F51811CA2800FA0136 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCD5951811CA0A00FA0136 /* CustomSegmentedControl.h */,
+				F0FCD5961811CA0A00FA0136 /* CustomSegmentedControl.m */,
+				F0FCD5971811CA0A00FA0136 /* CustomTabBarController.h */,
+				F0FCD5981811CA0A00FA0136 /* CustomTabBarController.m */,
+				F0FCD5991811CA0A00FA0136 /* CustomTabBarItem.h */,
+				F0FCD59A1811CA0A00FA0136 /* CustomTabBarItem.m */,
+			);
+			name = Subclass;
+			sourceTree = "<group>";
+		};
+		F0FCD5F61811CA2E00FA0136 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCD59F1811CA0A00FA0136 /* NSDictionary+Helper.h */,
+				F0FCD5A01811CA0A00FA0136 /* NSDictionary+Helper.m */,
+				F0FCD5A11811CA0A00FA0136 /* NSString+Helper.h */,
+				F0FCD5A21811CA0A00FA0136 /* NSString+Helper.m */,
+				F0FCD5A31811CA0A00FA0136 /* NSURL+Helper.h */,
+				F0FCD5A41811CA0A00FA0136 /* NSURL+Helper.m */,
+				F0FCD5A91811CA0A00FA0136 /* UIImage+animatedGIF.h */,
+				F0FCD5AA1811CA0A00FA0136 /* UIImage+animatedGIF.m */,
+				F0FCD5AB1811CA0A00FA0136 /* UIImage+Helper.h */,
+				F0FCD5AC1811CA0A00FA0136 /* UIImage+Helper.m */,
+				F0FCD5AD1811CA0A00FA0136 /* UIImageView+animatedGIF.h */,
+				F0FCD5AE1811CA0A00FA0136 /* UIImageView+animatedGIF.m */,
+				F0FCD5AF1811CA0A00FA0136 /* UILabel+Helpers.h */,
+				F0FCD5B01811CA0A00FA0136 /* UILabel+Helpers.m */,
+				F0FCD5B11811CA0A00FA0136 /* UILocalNotification+Helper.h */,
+				F0FCD5B21811CA0A00FA0136 /* UILocalNotification+Helper.m */,
+				F0FCD5B51811CA0A00FA0136 /* UIView+Animations.h */,
+				F0FCD5B61811CA0A00FA0136 /* UIView+Animations.m */,
+				F0FCD5B71811CA0A00FA0136 /* UIView+CommonLayout.h */,
+				F0FCD5B81811CA0A00FA0136 /* UIView+CommonLayout.m */,
+				F0FCD5B91811CA0A00FA0136 /* UIView+Manipulate.h */,
+				F0FCD5BA1811CA0A00FA0136 /* UIView+Manipulate.m */,
+				F0FCD5BD1811CA0A00FA0136 /* UIViewController+ImageBackButton.h */,
+				F0FCD5BE1811CA0A00FA0136 /* UIViewController+ImageBackButton.m */,
+				F0FCD5BF1811CA0A00FA0136 /* UIWebView+Helper.h */,
+				F0FCD5C01811CA0A00FA0136 /* UIWebView+Helper.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F0FCD5701811C7A500FA0136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FCD5E31811CA0A00FA0136 /* UILocalNotification+Helper.h in Headers */,
+				F0FCD5C51811CA0A00FA0136 /* CPLocationManager.h in Headers */,
+				F0FCD5C91811CA0A00FA0136 /* CustomTabBarController.h in Headers */,
+				F0FCD5DF1811CA0A00FA0136 /* UIImageView+animatedGIF.h in Headers */,
+				F0FCD5DD1811CA0A00FA0136 /* UIImage+Helper.h in Headers */,
+				F0FCD5E11811CA0A00FA0136 /* UILabel+Helpers.h in Headers */,
+				F0FCD5D31811CA0A00FA0136 /* NSString+Helper.h in Headers */,
+				F0FCD5EF1811CA0A00FA0136 /* UIViewController+ImageBackButton.h in Headers */,
+				F0FCD5F11811CA0A00FA0136 /* UIWebView+Helper.h in Headers */,
+				F0FCD5D11811CA0A00FA0136 /* NSDictionary+Helper.h in Headers */,
+				F0FCD5CB1811CA0A00FA0136 /* CustomTabBarItem.h in Headers */,
+				F0FCD5E71811CA0A00FA0136 /* UIView+Animations.h in Headers */,
+				F0FCD5C11811CA0A00FA0136 /* BundleHelper.h in Headers */,
+				F0FCD5EB1811CA0A00FA0136 /* UIView+Manipulate.h in Headers */,
+				F0FCD5C31811CA0A00FA0136 /* CoreDataWrapper.h in Headers */,
+				F0FCD5E91811CA0A00FA0136 /* UIView+CommonLayout.h in Headers */,
+				F0FCD5D71811CA0A00FA0136 /* NumberHelper.h in Headers */,
+				F0FCD5CD1811CA0A00FA0136 /* GoogleDirectionsAPI.h in Headers */,
+				F0FCD5C71811CA0A00FA0136 /* CustomSegmentedControl.h in Headers */,
+				F0FCD5D51811CA0A00FA0136 /* NSURL+Helper.h in Headers */,
+				F0FCD5DB1811CA0A00FA0136 /* UIImage+animatedGIF.h in Headers */,
+				F0FCD5D91811CA0A00FA0136 /* Reachability.h in Headers */,
+				F0FCD5CF1811CA0A00FA0136 /* IOHelper.h in Headers */,
+				F0FCD5881811C82A00FA0136 /* CPHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F0C2DB2C17A2D66800D0564F /* CPHelper */ = {
+		F0FCD5731811C7A500FA0136 /* CPHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0C2DB3B17A2D66800D0564F /* Build configuration list for PBXNativeTarget "CPHelper" */;
+			buildConfigurationList = F0FCD5851811C7A500FA0136 /* Build configuration list for PBXNativeTarget "CPHelper" */;
 			buildPhases = (
-				F0C2DB2917A2D66800D0564F /* Sources */,
-				F0C2DB2A17A2D66800D0564F /* Frameworks */,
-				F0C2DB2B17A2D66800D0564F /* Copy Files (17 items) */,
+				F0FCD56E1811C7A500FA0136 /* Sources */,
+				F0FCD56F1811C7A500FA0136 /* Frameworks */,
+				F0FCD5701811C7A500FA0136 /* Headers */,
+				F0FCD5711811C7A500FA0136 /* Resources */,
+				F0FCD5721811C7A500FA0136 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -311,82 +305,124 @@
 			);
 			name = CPHelper;
 			productName = CPHelper;
-			productReference = F0C2DB2D17A2D66800D0564F /* libCPHelper.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = F0FCD5741811C7A500FA0136 /* CPHelper.framework */;
+			productType = "com.apple.product-type.framework.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F0C2DB2517A2D66800D0564F /* Project object */ = {
+		F0FCD56A1811C7A500FA0136 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Collin Price";
 			};
-			buildConfigurationList = F0C2DB2817A2D66800D0564F /* Build configuration list for PBXProject "CPHelper" */;
+			buildConfigurationList = F0FCD56D1811C7A500FA0136 /* Build configuration list for PBXProject "CPHelper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F0C2DB2417A2D66800D0564F;
-			productRefGroup = F0C2DB2E17A2D66800D0564F /* Products */;
+			mainGroup = F0FCD5691811C7A500FA0136;
+			productRefGroup = F0FCD5751811C7A500FA0136 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0C2DB2C17A2D66800D0564F /* CPHelper */,
+				F0FCD5731811C7A500FA0136 /* CPHelper */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F0FCD5711811C7A500FA0136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FCD57E1811C7A500FA0136 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0FCD5721811C7A500FA0136 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "# TAG: BUILD SCRIPT (do not remove this comment)\n# Build script generated using https://github.com/kstenerud/iOS-Universal-Framework Mk 8 (beta 2012-06-16)\nimport logging\n\n\n##############################################################################\n#\n# Configuration\n#\n##############################################################################\n\n# Select which kind of framework to build.\n#\n# Note: Due to issues with Xcode's build process, if you select\n#       'embeddedframework', it will still show the regular framework\n#       (as a symlink) along side of the embedded framework. Be sure to\n#       instruct your users to copy/move the embedded framework in this case!\n#\n# If your framework contains resources such as images, nibs, momds, plists,\n# zipfiles and such, choose 'embeddedframework'.\n#\n# If your framework contains no resources, choose 'framework'.\n#\nconfig_framework_type = 'framework'\n#config_framework_type = 'embeddedframework'\n\n# Open the build directory in Finder when the universal framework is\n# successfully built.\n#\n# This value can be overridden by setting the UFW_OPEN_BUILD_DIR env variable\n# to True or False.\n#\n# Recommended setting: True\n#\nconfig_open_build_dir = True\n\n# If true, ensures that all public headers are stored in the framework under\n# the same directory hierarchy as they were in the source tree.\n#\n# Xcode by default places all headers at the same top level, but every other\n# build tool in the known universe preserves directory structure. For simple\n# libraries it doesn't really matter much, but for ports of existing software\n# packages or for bigger libraries, it makes sense to have more structure.\n#\n# The default is set to \"False\" since that's what most Xcode users are used to.\n#\n# Recommended setting: True for deep hierarchy projects, False otherwise.\n#\nconfig_deep_header_hierarchy = False\n\n# Specify where the top of the public header hierarchy is. This path is\n# relative to the project's dir (PROJECT_DIR). You can reference environment\n# variables using templating syntax (e.g. \"${TARGET_NAME}/Some/Subdir\")\n#\n# NOTE: Only used if config_deep_header_hierarchy is True.\n#\n# If this is set to None, the script will attempt to figure out for itself\n# where the top of the header hierarchy is by looking for common path prefixes\n# in the public header files. This process can fail if:\n# - You only have one public header file.\n# - Your source header files don't all have a common root.\n#\n# A common approach is to use \"${TARGET_NAME}\", working under the assumption\n# that all of your header files share the common root of a directory under\n# your project with the same name as your target (which is the Xcode default).\n#\n# Recommended setting: \"${TARGET_NAME}\"\n#\nconfig_deep_header_top = \"${TARGET_NAME}\"\n\n# Warn when \"DerivedData\" is detected in any of the header, library, or\n# framework search paths. In almost all cases, references to directories under\n# DerivedData are added as a result of an Xcode bug and must be manually\n# removed.\n#\n# Recommended setting: True\n#\nconfig_warn_derived_data = True\n\n# Warn if no headers were marked public in this framework.\n#\n# Recommended setting: True\n#\nconfig_warn_no_public_headers = True\n\n# Cause the build to fail if any warnings are issued.\n#\n# Recommended setting: True\n#\nconfig_fail_on_warnings = True\n\n# Minimum log level\n#\n# Recommended setting: logging.INFO\n#\nconfig_log_level = logging.INFO\n\n\n##############################################################################\n#\n# Don't touch anything below here unless you know what you're doing.\n#\n##############################################################################\n\nimport collections\nimport json\nimport os\nimport re\nimport shlex\nimport shutil\nimport string\nimport subprocess\nimport sys\nimport time\nimport traceback\n\n\n##############################################################################\n#\n# Globals\n#\n##############################################################################\n\nlog = logging.getLogger('UFW')\n\nissued_warnings = False\n\n\n##############################################################################\n#\n# Classes\n#\n##############################################################################\n\n# Allows the slave build to communicate with the master build.\n#\nclass BuildState:\n\n    def __init__(self):\n        self.reload()\n\n    def reset(self):\n        self.slave_platform = None\n        self.slave_architectures = []\n        self.slave_linked_archive_paths = []\n        self.slave_built_fw_path = None\n        self.slave_built_embedded_fw_path = None\n\n    def set_slave_properties(self, architectures,\n                             linked_archive_paths,\n                             built_fw_path,\n                             built_embedded_fw_path):\n        self.slave_platform = os.environ['PLATFORM_NAME']\n        self.slave_architectures = architectures\n        self.slave_linked_archive_paths = linked_archive_paths\n        self.slave_built_fw_path = built_fw_path\n        self.slave_built_embedded_fw_path = built_embedded_fw_path\n\n    def get_save_path(self):\n        return os.path.join(os.environ['PROJECT_TEMP_DIR'], \"ufw_build_state.json\")\n\n    def persist(self):\n        filename = self.get_save_path()\n        parent = os.path.dirname(filename)\n        if not os.path.isdir(parent):\n            os.makedirs(parent)\n        with open(filename, \"w\") as f:\n            f.write(json.dumps(self.__dict__))\n\n    def reload(self):\n        self.reset()\n        filename = self.get_save_path()\n        if os.path.exists(filename):\n            with open(filename, \"r\") as f:\n                new_dict = json.loads(f.read())\n                if new_dict is not None:\n                    self.__dict__ = dict(self.__dict__.items() + new_dict.items())\n\n\n# Holds information about the current project and build environment.\n#\nclass Project:\n\n    def __init__(self, filename):\n        sourcecode_types = ['sourcecode.c.c',\n                            'sourcecode.c.objc',\n                            'sourcecode.cpp.cpp',\n                            'sourcecode.cpp.objcpp',\n                            'sourcecode.asm.asm',\n                            'sourcecode.asm.llvm',\n                            'sourcecode.nasm']\n\n        self.build_state = BuildState()\n        self.project_data = self.load_from_file(filename)\n        self.target = filter(lambda x: x['name'] == os.environ['TARGET_NAME'], self.project_data['targets'])[0]\n        self.public_headers = self.get_build_phase_files('PBXHeadersBuildPhase', lambda x: x.get('settings', False) and x['settings'].get('ATTRIBUTES', False) and 'Public' in x['settings']['ATTRIBUTES'])\n        self.static_libraries = self.get_build_phase_files('PBXFrameworksBuildPhase', lambda x: x['fileRef']['fileType'] == 'archive.ar' and x['fileRef']['sourceTree'] not in ['DEVELOPER_DIR', 'SDKROOT'])\n        self.static_frameworks = self.get_build_phase_files('PBXFrameworksBuildPhase', lambda x: x['fileRef']['fileType'] == 'wrapper.framework' and x['fileRef']['sourceTree'] not in ['DEVELOPER_DIR', 'SDKROOT'])\n        self.compilable_sources = self.get_build_phase_files('PBXSourcesBuildPhase', lambda x: x['fileRef']['fileType'] in sourcecode_types)\n        self.header_paths = [os.path.join(*x['pathComponents']) for x in self.public_headers]\n\n        self.headers_dir = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['CONTENTS_FOLDER_PATH'], 'Headers')\n        self.libtool_path = os.path.join(os.environ['DT_TOOLCHAIN_DIR'], 'usr', 'bin', 'libtool')\n        self.project_filename = os.path.join(os.environ['PROJECT_FILE_PATH'], \"project.pbxproj\")\n        self.local_exe_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])\n        self.local_architectures = os.environ['ARCHS'].split(' ')\n        self.local_built_fw_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['WRAPPER_NAME'])\n        self.local_built_embedded_fw_path = os.path.splitext(self.local_built_fw_path)[0] + \".embeddedframework\"\n        self.local_linked_archive_paths = [self.get_linked_ufw_archive_path(arch) for arch in self.local_architectures]\n        self.local_platform = os.environ['PLATFORM_NAME']\n        other_platforms = os.environ['SUPPORTED_PLATFORMS'].split(' ')\n        other_platforms.remove(self.local_platform)\n        self.other_platform = other_platforms[0]\n\n        sdk_name = os.environ['SDK_NAME']\n        if not sdk_name.startswith(self.local_platform):\n            raise Exception(\"%s didn't start with %s\" % (sdk_name, self.local_platform))\n        self.sdk_version = sdk_name[len(self.local_platform):]\n\n    # Load an Xcode project file.\n    #\n    def load_from_file(self, filename):\n        project_file = json.loads(subprocess.check_output([\"plutil\", \"-convert\", \"json\", \"-o\", \"-\", filename]))\n        all_objects = project_file['objects']\n        del project_file['objects']\n        for obj in all_objects.values():\n            self.fix_keys(obj)\n        self.unpack_objects(self.build_dereference_list(all_objects, None, None, project_file))\n        self.unpack_objects(self.build_dereference_list(all_objects, None, None, all_objects.values()))\n        project_data = project_file['rootObject']\n        self.build_full_paths(project_data, splitpath(os.environ['SOURCE_ROOT']))\n        return project_data\n\n    def is_key(self, obj):        \n        return isinstance(obj, basestring) and len(obj) == 24 and re.search('^[0-9a-fA-F]+$', obj) is not None\n    \n    def build_dereference_list(self, all_objects, parent, key, obj):\n        deref_list = []\n        if self.is_key(obj):\n            dereferenced = all_objects.get(obj, obj)\n            if dereferenced is not obj:\n                deref_list.append((parent, key, obj, dereferenced))\n        elif isinstance(obj, collections.Mapping):\n            for k, v in obj.iteritems():\n                deref_list += self.build_dereference_list(all_objects, obj, k, v)\n        elif isinstance(obj, collections.Iterable) and not isinstance(obj, basestring):\n            for item in obj:\n                deref_list += self.build_dereference_list(all_objects, obj, None, item)\n        return deref_list\n    \n    def unpack_objects(self, deref_list):\n        for parent, key, orig, obj in deref_list:\n            if key is None:\n                parent.remove(orig)\n                parent.append(obj)\n            else:\n                parent[key] = obj\n\n    # Store the full path, separated into components, to a node inside the node\n    # as \"pathComponents\". Also recurse into that node if it's a group.\n    #\n    def build_full_paths(self, node, base_path):\n        # Some nodes are relative to a different source tree, specified as an\n        # env variable.\n        if node.get('sourceTree', '<group>') != '<group>':\n            new_base_path = os.environ.get(node['sourceTree'], None)\n            if new_base_path:\n                base_path = splitpath(new_base_path)\n        # Add the current node's path, if any.\n        if node.get('path', False):\n            base_path = base_path + splitpath(node['path'])\n        node['pathComponents'] = base_path\n        # Recurse if this is a group.\n        if node['isa'] == 'PBXGroup':\n            for child in node['children']:\n                self.build_full_paths(child, base_path)\n        elif node['isa'] == 'PBXProject':\n            self.build_full_paths(node['mainGroup'], base_path)\n            self.build_full_paths(node['productRefGroup'], base_path)\n            for child in node['targets']:\n                self.build_full_paths(child, base_path)\n            projectRefs = node.get('projectReferences', None)\n            if projectRefs is not None:\n                for child in projectRefs[0].values():\n                    self.build_full_paths(child, base_path)\n\n    # Fix up any inconvenient keys.\n    #\n    def fix_keys(self, obj):\n        key_remappings = {'lastKnownFileType': 'fileType', 'explicitFileType': 'fileType'}\n        for key in list(set(key_remappings.keys()) & set(obj.keys())):\n            obj[key_remappings[key]] = obj[key]\n            del obj[key]\n\n    # Get the files from a build phase.\n    #\n    def get_build_phase_files(self, build_phase_name, filter_func):\n        build_phase = filter(lambda x: x['isa'] == build_phase_name, self.target['buildPhases'])[0]\n        build_files = filter(filter_func, build_phase['files'])\n        return [x['fileRef'] for x in build_files]\n\n    # Get the truncated paths of all headers that start with the specified\n    # relative path. Paths are read and returned as fully separated lists.\n    # e.g. ['Some', 'Path', 'To', 'A', 'Header'] with relative_path of\n    # ['Some', 'Path'] gets truncated to ['To', 'A', 'Header']\n    #\n    def movable_headers_relative_to(self, relative_path):\n        rel_path_length = len(relative_path)\n        result = filter(lambda path: len(path) >= rel_path_length and\n                                     path[:rel_path_length] == relative_path, self.header_paths)\n        return [path[rel_path_length:] for path in result]\n\n    # Get the full path to where a linkable archive (library or framework)\n    # is supposed to be.\n    #\n    def get_linked_archive_path(self, architecture):\n        return os.path.join(os.environ['OBJECT_FILE_DIR_%s' % os.environ['CURRENT_VARIANT']],\n                            architecture,\n                            os.environ['EXECUTABLE_NAME'])\n\n    # Get the full path to our custom linked archive of the project.\n    #\n    def get_linked_ufw_archive_path(self, architecture):\n        return self.get_linked_archive_path(architecture) + \".ufwbuild\"\n\n    # Get the full path to the executable of an archive.\n    #\n    def get_exe_path(self, node):\n        path = os.path.join(*node['pathComponents'])\n        if node['fileType'] == 'wrapper.framework':\n            # Frameworks are directories, so go one deeper\n            path = os.path.join(path, os.path.splitext(node['pathComponents'][-1])[0])\n        return path\n\n    # Get the path to the directory containing the archive.\n    #\n    def get_containing_path(self, node):\n        return os.path.join(*node['pathComponents'])\n    \n    def get_archive_search_paths(self):\n        log.info(\"Search paths = %s\" % set([self.get_containing_path(fw) for fw in self.static_frameworks] + [self.get_containing_path(fw) for fw in self.static_libraries]))\n        return set([self.get_containing_path(fw) for fw in self.static_frameworks] + [self.get_containing_path(fw) for fw in self.static_libraries])\n\n    # Command to link all objects of a single architecture.\n    #\n    def get_single_arch_link_command(self, architecture):\n        cmd = [self.libtool_path,\n               \"-static\",\n               \"-arch_only\", architecture,\n               \"-syslibroot\", os.environ['SDKROOT'],\n               \"-L%s\" % os.environ['TARGET_BUILD_DIR'],\n               \"-filelist\", os.environ['LINK_FILE_LIST_%s_%s' % (os.environ['CURRENT_VARIANT'], architecture)]]\n        if os.environ.get('OTHER_LDFLAGS', False):\n            cmd += [os.environ['OTHER_LDFLAGS']]\n        if os.environ.get('WARNING_LDFLAGS', False):\n            cmd += [os.environ['WARNING_LDFLAGS']]\n#        cmd += [\"-L%s\" % libpath for libpath in self.get_archive_search_paths()]\n        cmd += [self.get_exe_path(fw) for fw in self.static_frameworks]\n        cmd += [self.get_exe_path(lib) for lib in self.static_libraries]\n        cmd += [\"-o\", self.get_linked_ufw_archive_path(architecture)]\n        return cmd\n\n    # Command to link all local architectures for the current configuration\n    # into an archive. This reads all libraries + the UFW-built archives and\n    # overwrites the final product.\n    #\n    def get_local_archs_link_command(self):\n        cmd = [self.libtool_path,\n               \"-static\"]\n        cmd += self.local_linked_archive_paths\n        cmd += [self.get_exe_path(fw) for fw in self.static_frameworks]\n        cmd += [self.get_exe_path(lib) for lib in self.static_libraries]\n        cmd += [\"-o\", os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])]\n        return cmd\n\n    # Command to link all architectures into a universal archive.\n    # This reads all UFW-built archives and overwrites the final product.\n    #\n    def get_all_archs_link_command(self):\n        cmd = [self.libtool_path,\n               \"-static\"]\n        cmd += self.local_linked_archive_paths + self.build_state.slave_linked_archive_paths\n        cmd += [\"-o\", os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['EXECUTABLE_PATH'])]\n        return cmd\n\n    # Build up an environment for the slave process. This uses BUILD_ROOT\n    # and TEMP_ROOT to convert all environment variables to values suitable\n    # for the slave build environment so that xcodebuild doesn't try to build\n    # in the project directory under \"build\".\n    #\n    def get_slave_environment(self):\n        ignored = ['LD_MAP_FILE_PATH',\n        'HEADER_SEARCH_PATHS',\n        'LIBRARY_SEARCH_PATHS',\n        'FRAMEWORK_SEARCH_PATHS']\n        build_root = os.environ['BUILD_ROOT']\n        temp_root = os.environ['TEMP_ROOT']\n        newenv = {}\n        for key, value in os.environ.items():\n            if key not in ignored and not key.startswith('LINK_FILE_LIST_') and not key.startswith('LD_DEPENDENCY_'):\n                if build_root in value or temp_root in value:\n                    newenv[key] = value.replace(self.local_platform, self.other_platform)\n        return newenv\n\n    # Command to invoke xcodebuild on the slave platform.\n    #\n    def get_slave_project_build_command(self):\n        cmd = [\"xcodebuild\",\n               \"-project\",\n               os.environ['PROJECT_FILE_PATH'],\n               \"-target\",\n               os.environ['TARGET_NAME'],\n               \"-configuration\",\n               os.environ['CONFIGURATION'],\n               \"-sdk\",\n               self.other_platform + self.sdk_version]\n        cmd += [\"%s=%s\" % (key, value) for key, value in self.get_slave_environment().items()]\n        cmd += [\"UFW_MASTER_PLATFORM=\" + os.environ['PLATFORM_NAME']]\n        cmd += [os.environ['ACTION']]\n        return cmd\n\n\n\n##############################################################################\n#\n# Utility Functions\n#\n##############################################################################\n\n# Split a path into a list of path components.\n#\ndef splitpath(path, maxdepth=20):\n     (head, tail) = os.path.split(path)\n     return splitpath(head, maxdepth - 1) + [tail] if maxdepth and head and head != path else [ head or tail ]\n\n# Remove all subdirectories under a path.\n#\ndef remove_subdirs(path, ignore_files):\n    if os.path.exists(path):\n        for filename in filter(lambda x: x not in ignore_files, os.listdir(path)):\n            fullpath = os.path.join(path, filename)\n            if os.path.isdir(fullpath):\n                log.info(\"Remove %s\" % fullpath)\n                shutil.rmtree(fullpath)\n\n# Make whatever parent paths are necessary for a path to exist.\n#\ndef ensure_path_exists(path):\n    if not os.path.isdir(path):\n        os.makedirs(path)\n\n# Make whatever parent paths are necessary for a path's parent to exist.\n#\ndef ensure_parent_exists(path):\n    parent = os.path.dirname(path)\n    if not os.path.isdir(parent):\n        os.makedirs(parent)\n\n# Remove a file or dir if it exists.\n#\ndef remove_path(path):\n    if os.path.exists(path):\n        if os.path.isdir(path):\n            shutil.rmtree(path)\n        else:\n            os.remove(path)\n\n# Move a file or dir, replacing the destination if it exists.\n#\ndef move_file(src, dst):\n    if src == dst or not os.path.isfile(src):\n        return\n    log.info(\"Move %s to %s\" % (src, dst))\n    ensure_parent_exists(dst)\n    remove_path(dst)\n    shutil.move(src, dst)\n\n# Copy a file or dir, replacing the destination if it exists already.\n#\ndef copy_overwrite(src, dst):\n    if src != dst:\n        remove_path(dst)\n        ensure_parent_exists(dst)\n        shutil.copytree(src, dst, symlinks=True)\n\n# Attempt to symlink link_path -> link_to.\n# link_to must be a path relative to link_path's parent and must exist.\n# If link_path already exists, do nothing.\n#\ndef attempt_symlink(link_path, link_to):\n    # Only allow linking to an existing file\n    os.stat(os.path.abspath(os.path.join(link_path, \"..\", link_to)))\n\n    # Only make the link if it hasn't already been made\n    if not os.path.exists(link_path):\n        log.info(\"Symlink %s -> %s\" % (link_path, link_to))\n        os.symlink(link_to, link_path)\n\n# Takes the last entry in an array-based path and returns a normal path\n# relative to base_path.\n#\ndef top_level_file_path(base_path, path_list):\n    return os.path.join(base_path, os.path.split(path_list[-1])[-1])\n\n# Takes all entries in an array-based path and returns a normal path\n# relative to base_path.\n#\ndef full_file_path(base_path, path_list):\n    return os.path.join(*([base_path] + path_list))\n\n# Print a command before executing it.\n# Also print out all output from the command to STDOUT.\n#\ndef print_and_call(cmd):\n    log.info(\"Cmd \" + \" \".join(cmd))\n    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\n    result = p.communicate()[0]\n    if len(result) > 0:\n        log.info(result)\n    if p.returncode != 0:\n        raise subprocess.CalledProcessError(p.returncode, cmd)\n\n# Special print-and-call command for the slave build that strips out\n# xcodebuild's spammy list of environment variables.\n#\ndef print_and_call_slave_build(cmd, other_platform):\n    separator = '=== BUILD NATIVE TARGET '\n    p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)\n    result = p.communicate()[0].split(separator)\n    if len(result) == 1:\n        result = result[0]\n    else:\n        result = separator + result[1]\n    log.info(\"Cmd \" + \" \".join(cmd) + \"\\n\" + result)\n    if p.returncode != 0:\n        raise subprocess.CalledProcessError(p.returncode, cmd)\n\n# Issue a warning and record that a warning has been issued.\n#\ndef issue_warning(msg, *args, **kwargs):\n    global issued_warnings\n    issued_warnings = True\n    log.warn(msg, *args, **kwargs)\n\n\n\n##############################################################################\n#\n# Main Application\n#\n##############################################################################\n\n# Check if we are running as master.\n#\ndef is_master():\n    return os.environ.get('UFW_MASTER_PLATFORM', os.environ['PLATFORM_NAME']) == os.environ['PLATFORM_NAME']\n\n# DerivedData should almost never appear in any framework, library, or header\n# search paths. However, Xcode will sometimes add them in, so we check to make\n# sure.\n#\ndef check_for_derived_data_in_search_paths(project):\n    search_path_keys = [\"FRAMEWORK_SEARCH_PATHS\", \"LIBRARY_SEARCH_PATHS\", \"HEADER_SEARCH_PATHS\"]\n    build_configs = project.target['buildConfigurationList']['buildConfigurations']\n    build_settings = filter(lambda x: x['name'] == os.environ['CONFIGURATION'], build_configs)[0]['buildSettings']\n    \n    found_something = False\n    for path_key in filter(lambda x: x in build_settings, search_path_keys):\n        path = build_settings[path_key]\n        if \"DerivedData\" in path:\n            found_something = True\n            log.warn(\"Derived data in %s\" % path)\n            issue_warning(\"'%s' contains reference to 'DerivedData'.\" % path_key)\n    if found_something:\n        log.warn(\"Check your build settings and remove any entries that contain paths inside the DerivedData folder.\")\n        log.warn(\"Otherwise you can disable this warning by changing 'config_warn_derived_data' in this script.\")\n\n# Link local architectures into their respective archives.\n#\ndef link_local_archs(project):\n    for arch in project.local_architectures:\n        print_and_call(project.get_single_arch_link_command(arch))\n\n# Link only the local architectures into the final product, not the slave\n# architectures. For iphoneos, this will be armv6, armv7. For simulator, this\n# will be i386.\n#\ndef link_combine_local_archs(project):\n    print_and_call(project.get_local_archs_link_command())\n\n# Link all architectures into the final product.\n#\ndef link_combine_all_archs(project):\n    print_and_call(project.get_all_archs_link_command())\n\n# Check if we should open the build directory after a successful build.\n#\ndef should_open_build_dir():\n    env_setting = os.environ.get('UFW_OPEN_BUILD_DIR', None)\n    if env_setting is not None:\n        return env_setting\n\n    return config_open_build_dir\n\n# Open the build dir in Finder.\n#\ndef open_build_dir():\n    print_and_call(['open', os.environ['TARGET_BUILD_DIR']])\n\n# Check if the build was started by selecting \"Archive\" under \"Product\" in\n# Xcode.\n#\ndef is_archive_build():\n    # ACTION is always 'build', but perhaps Apple will fix this someday?\n    archive_build = os.environ['ACTION'] == 'archive'\n\n    if not archive_build:\n        # This can be passed in as an env variable when building from command line.\n        archive_build = os.environ.get('UFW_ACTION', None) == 'archive'\n\n    build_dir = splitpath(os.environ['BUILD_DIR'])\n    if not archive_build:\n        # This partial path is used when you select \"archive\" from within Xcode.\n        archive_build = 'ArchiveIntermediates' in build_dir\n\n    # It only counts as a full archive build if this target is being built into\n    # its own build dir (not being built as a dependency of another target)\n    if archive_build:\n        archive_build = os.environ['TARGET_NAME'] in build_dir\n    \n    return archive_build\n\n# Xcode by default throws all public headers into the top level directory.\n# This function moves them to their expected deep hierarchy.\n#\ndef build_deep_header_hierarchy(project):\n    header_path_top = config_deep_header_top\n    if not header_path_top:\n        header_path_top = os.path.commonprefix(project.header_paths)\n    else:\n        header_path_top = splitpath(header_path_top)\n\n    built_headers_path = os.path.join(os.environ['TARGET_BUILD_DIR'], os.environ['PUBLIC_HEADERS_FOLDER_PATH'])\n    movable_headers = project.movable_headers_relative_to(header_path_top)\n\n    # Remove subdirs if they only contain files that have been rebuilt\n    ignore_headers = filter(lambda x: not os.path.isfile(top_level_file_path(built_headers_path, x)), movable_headers)\n    remove_subdirs(built_headers_path, [file[0] for file in ignore_headers])\n\n    # Move rebuilt headers into their proper subdirs\n    for header in movable_headers:\n        move_file(top_level_file_path(built_headers_path, header), full_file_path(built_headers_path, header))\n\n# Add all symlinks needed to make a full framework structure:\n#\n# MyFramework.framework\n# |-- MyFramework -> Versions/Current/MyFramework\n# |-- Headers -> Versions/Current/Headers\n# |-- Resources -> Versions/Current/Resources\n# `-- Versions\n#     |-- A\n#     |   |-- MyFramework\n#     |   |-- Headers\n#     |   |   `-- MyFramework.h\n#     |   `-- Resources\n#     |       |-- Info.plist\n#     |       |-- MyViewController.nib\n#     |       `-- en.lproj\n#     |           `-- InfoPlist.strings\n#     `-- Current -> A\n#\ndef add_symlinks_to_framework(project):\n    base_dir = project.local_built_fw_path\n    attempt_symlink(os.path.join(base_dir, \"Versions\", \"Current\"), os.environ['FRAMEWORK_VERSION'])\n    if os.path.isdir(os.path.join(base_dir, \"Versions\", \"Current\", \"Headers\")):\n        attempt_symlink(os.path.join(base_dir, \"Headers\"), os.path.join(\"Versions\", \"Current\", \"Headers\"))\n    if os.path.isdir(os.path.join(base_dir, \"Versions\", \"Current\", \"Resources\")):\n        attempt_symlink(os.path.join(base_dir, \"Resources\"), os.path.join(\"Versions\", \"Current\", \"Resources\"))\n    attempt_symlink(os.path.join(base_dir, os.environ['EXECUTABLE_NAME']), os.path.join(\"Versions\", \"Current\", os.environ['EXECUTABLE_NAME']))\n\n# Build an embedded framework structure.\n# An embedded framework contains the actual framework, plus a \"Resources\"\n# directory containing symlinks to all resources found in the actual framework,\n# with the exception of \"Info.plist\" and anything ending in \".lproj\":\n#\n# MyFramework.embeddedframework\n# |-- MyFramework.framework\n# |   |-- MyFramework -> Versions/Current/MyFramework\n# |   |-- Headers -> Versions/Current/Headers\n# |   |-- Resources -> Versions/Current/Resources\n# |   `-- Versions\n# |       |-- A\n# |       |   |-- MyFramework\n# |       |   |-- Headers\n# |       |   |   `-- MyFramework.h\n# |       |   `-- Resources\n# |       |       |-- Info.plist\n# |       |       |-- MyViewController.nib\n# |       |       `-- en.lproj\n# |       |           `-- InfoPlist.strings\n# |       `-- Current -> A\n# `-- Resources\n#     `-- MyViewController.nib -> ../MyFramework.framework/Resources/MyViewController.nib\n#\ndef build_embedded_framework(project):\n    fw_path = project.local_built_fw_path\n    embedded_path = project.local_built_embedded_fw_path\n    fw_name = os.environ['WRAPPER_NAME']\n    remove_path(embedded_path)\n    ensure_path_exists(embedded_path)\n    copy_overwrite(fw_path, os.path.join(embedded_path, fw_name))\n    ensure_path_exists(os.path.join(embedded_path, \"Resources\"))\n    symlink_source = os.path.join(\"..\", fw_name, \"Resources\")\n    symlink_path = os.path.join(embedded_path, \"Resources\")\n    if os.path.isdir(os.path.join(fw_path, \"Resources\")):\n        for file in filter(lambda x: x != \"Info.plist\" and not x.endswith(\".lproj\"), os.listdir(os.path.join(fw_path, \"Resources\"))):\n            attempt_symlink(os.path.join(symlink_path, file), os.path.join(symlink_source, file))\n\n    # Remove the normal framework and replace it with a symlink to the copy\n    # in the embedded framework. This is needed because Xcode runs its strip\n    # phase AFTER the script runs.\n    embed_fw_wrapper = os.path.splitext(os.environ['WRAPPER_NAME'])[0] + \".embeddedframework\"\n    remove_path(fw_path)\n    attempt_symlink(fw_path, os.path.join(embed_fw_wrapper, os.environ['WRAPPER_NAME']))\n\n\n# Run the build process in slave mode to build the other configuration\n# (device/simulator).\n#\ndef run_slave_build(project):\n    print_and_call_slave_build(project.get_slave_project_build_command(), project.other_platform)\n\n# Run the build process.\n#\ndef run_build():\n    project = Project(os.path.join(os.environ['PROJECT_FILE_PATH'], \"project.pbxproj\"))\n\n    # Issue warnings only if we're master.\n    if is_master():\n        if len(project.compilable_sources) == 0:\n            raise Exception(\"No compilable sources found. Please add at least one source file to build target %s.\" % os.environ['TARGET_NAME'])\n\n        if config_warn_derived_data:\n            check_for_derived_data_in_search_paths(project)\n        if config_warn_no_public_headers and len(project.public_headers) == 0:\n            issue_warning('No headers in build target %s were marked public. Please move at least one header to \"Public\" in the \"Copy Headers\" build phase.' % os.environ['TARGET_NAME'])\n\n    # Only build slave if this is an archive build.\n    if is_archive_build():\n        if is_master():\n            log.debug(\"Building as MASTER\")\n            # The slave-side linker tries to include this (nonexistent) path as\n            # a library path.\n            ensure_path_exists(project.get_slave_environment()['BUILT_PRODUCTS_DIR'])\n            project.build_state.persist()\n            run_slave_build(project)\n            project.build_state.reload()\n        else:\n            log.debug(\"Building as SLAVE\")\n            project.build_state.reload()\n            project.build_state.set_slave_properties(project.local_architectures,\n                                                     project.local_linked_archive_paths,\n                                                     project.local_built_fw_path,\n                                                     project.local_built_embedded_fw_path)\n            project.build_state.persist()\n\n    link_local_archs(project)\n    \n    # Only do a universal binary when building an archive.\n    if is_archive_build() and is_master():\n        link_combine_all_archs(project)\n    else:\n        link_combine_local_archs(project)\n\n    if config_deep_header_hierarchy:\n        build_deep_header_hierarchy(project)\n\n    add_symlinks_to_framework(project)\n    \n    if is_master():\n        if config_framework_type == 'embeddedframework':\n            build_embedded_framework(project)\n        elif config_framework_type != 'framework':\n            raise Exception(\"%s: Unknown framework type for config_framework_type\" % config_framework_type)\n\n\nif __name__ == \"__main__\":\n    log_handler = logging.StreamHandler()\n    log_handler.setFormatter(logging.Formatter(\"%(name)s (\" + os.environ['PLATFORM_NAME'] + \"): %(levelname)s: %(message)s\"))\n    log.addHandler(log_handler)\n    log.setLevel(config_log_level)\n\n    error_code = 0\n    prefix = \"M\" if is_master() else \"S\"\n    log_handler.setFormatter(logging.Formatter(\"%(name)s (\" + prefix + \" \" + os.environ['PLATFORM_NAME'] + \"): %(levelname)s: %(message)s\"))\n\n    log.debug(\"Begin build process\")\n\n    if config_deep_header_top:\n        config_deep_header_top = string.Template(config_deep_header_top).substitute(os.environ)\n\n    try:\n        run_build()\n        if issued_warnings:\n            if config_fail_on_warnings:\n                error_code = 1\n            log.warn(\"Build completed with warnings\")\n        else:\n            log.info(\"Build completed\")\n        if not is_archive_build():\n            log.info(\"Note: This is *NOT* a universal framework build. To build as a universal framework, do an archive build.\")\n            log.info(\"To do an archive build from command line, use \\\"xcodebuild -configuration Release UFW_ACTION=archive clean build\\\"\")\n    except Exception:\n        traceback.print_exc(file=sys.stdout)\n        error_code = 1\n        log.error(\"Build failed\")\n    finally:\n        if error_code == 0 and is_archive_build() and is_master():\n            log.info(\"Built framework is in \" + os.environ['TARGET_BUILD_DIR'])\n            if should_open_build_dir():\n                open_build_dir()\n        sys.exit(error_code)\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F0C2DB2917A2D66800D0564F /* Sources */ = {
+		F0FCD56E1811C7A500FA0136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C2DB6717A2DAD800D0564F /* CustomSegmentedControl.m in Sources */,
-				F0C2DB6817A2DAD800D0564F /* CustomTabBarController.m in Sources */,
-				F0A5EB9317ED372100523085 /* NSURL+Helper.m in Sources */,
-				F0C2DB6917A2DAD800D0564F /* CustomTabBarItem.m in Sources */,
-				F0C2DB6C17A2DAD800D0564F /* NumberHelper.m in Sources */,
-				F0C2DB6D17A2DAD800D0564F /* Reachability.m in Sources */,
-				F0C2DB6E17A2DAD800D0564F /* UIImage+animatedGIF.m in Sources */,
-				F0C2DB6F17A2DAD800D0564F /* UILabel+Helpers.m in Sources */,
-				F0C2DB7017A2DAD800D0564F /* UINavigationBar+CustomNavBar.m in Sources */,
-				F0C2DB7117A2DAD800D0564F /* UIView+CommonLayout.m in Sources */,
-				F0C2DB7317A2DAD800D0564F /* UIViewController+ImageBackButton.m in Sources */,
-				F0CFED0D17AAD4DE006677D9 /* UIImageView+animatedGIF.m in Sources */,
-				F0CFED1017AAD644006677D9 /* NSString+Helper.m in Sources */,
-				F0CFEF6317AAEDA5006677D9 /* UIView+Animations.m in Sources */,
-				F0A02F7117AC17EA003C2A57 /* CoreDataWrapper.m in Sources */,
-				F0A70B6117AC1C4C00FBB189 /* BundleHelper.m in Sources */,
-				F0A70B7917AC255400FBB189 /* IOHelper.m in Sources */,
-				F0A70B7F17B14EBF00FBB189 /* UIView+Manipulate.m in Sources */,
-				F0A5EBB917F1CBDA00523085 /* UILocalNotification+Helper.m in Sources */,
-				F0F0A04217CFBFB400F6E66F /* UIWebView+Helper.m in Sources */,
-				F0F0A19C17D9092F00F6E66F /* UIImage+Helper.m in Sources */,
-				F05065BC17E684BD00E573D8 /* NSDictionary+Helper.m in Sources */,
-				F0D2B7E117F3384B003C5E57 /* GoogleDirectionsAPI.m in Sources */,
-				F05065C417E8C0B400E573D8 /* CPLocationManager.m in Sources */,
-				F05065CB17E9E79800E573D8 /* UIView+Spinner.m in Sources */,
+				F0FCD5E41811CA0A00FA0136 /* UILocalNotification+Helper.m in Sources */,
+				F0FCD5DA1811CA0A00FA0136 /* Reachability.m in Sources */,
+				F0FCD5F21811CA0A00FA0136 /* UIWebView+Helper.m in Sources */,
+				F0FCD5C41811CA0A00FA0136 /* CoreDataWrapper.m in Sources */,
+				F0FCD5CE1811CA0A00FA0136 /* GoogleDirectionsAPI.m in Sources */,
+				F0FCD5DE1811CA0A00FA0136 /* UIImage+Helper.m in Sources */,
+				F0FCD5E01811CA0A00FA0136 /* UIImageView+animatedGIF.m in Sources */,
+				F0FCD5CC1811CA0A00FA0136 /* CustomTabBarItem.m in Sources */,
+				F0FCD5F01811CA0A00FA0136 /* UIViewController+ImageBackButton.m in Sources */,
+				F0FCD5C21811CA0A00FA0136 /* BundleHelper.m in Sources */,
+				F0FCD5C61811CA0A00FA0136 /* CPLocationManager.m in Sources */,
+				F0FCD5D41811CA0A00FA0136 /* NSString+Helper.m in Sources */,
+				F0FCD5E21811CA0A00FA0136 /* UILabel+Helpers.m in Sources */,
+				F0FCD5D81811CA0A00FA0136 /* NumberHelper.m in Sources */,
+				F0FCD5E81811CA0A00FA0136 /* UIView+Animations.m in Sources */,
+				F0FCD5D01811CA0A00FA0136 /* IOHelper.m in Sources */,
+				F0FCD5EA1811CA0A00FA0136 /* UIView+CommonLayout.m in Sources */,
+				F0FCD5EC1811CA0A00FA0136 /* UIView+Manipulate.m in Sources */,
+				F0FCD5D21811CA0A00FA0136 /* NSDictionary+Helper.m in Sources */,
+				F0FCD5CA1811CA0A00FA0136 /* CustomTabBarController.m in Sources */,
+				F0FCD5D61811CA0A00FA0136 /* NSURL+Helper.m in Sources */,
+				F0FCD5C81811CA0A00FA0136 /* CustomSegmentedControl.m in Sources */,
+				F0FCD5DC1811CA0A00FA0136 /* UIImage+animatedGIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F0FCD57C1811C7A500FA0136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0FCD57D1811C7A500FA0136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F0C2DB3917A2D66800D0564F /* Debug */ = {
+		F0FCD5831811C7A500FA0136 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -397,94 +433,109 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		F0C2DB3A17A2D66800D0564F /* Release */ = {
+		F0FCD5841811C7A500FA0136 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F0C2DB3C17A2D66800D0564F /* Debug */ = {
+		F0FCD5861811C7A500FA0136 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				DSTROOT = /tmp/CPHelper.dst;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
+				INFOPLIST_FILE = "CPHelper/CPHelper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		F0C2DB3D17A2D66800D0564F /* Release */ = {
+		F0FCD5871811C7A500FA0136 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				DSTROOT = /tmp/CPHelper.dst;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPHelper/CPHelper-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
+				INFOPLIST_FILE = "CPHelper/CPHelper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0C2DB2817A2D66800D0564F /* Build configuration list for PBXProject "CPHelper" */ = {
+		F0FCD56D1811C7A500FA0136 /* Build configuration list for PBXProject "CPHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0C2DB3917A2D66800D0564F /* Debug */,
-				F0C2DB3A17A2D66800D0564F /* Release */,
+				F0FCD5831811C7A500FA0136 /* Debug */,
+				F0FCD5841811C7A500FA0136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0C2DB3B17A2D66800D0564F /* Build configuration list for PBXNativeTarget "CPHelper" */ = {
+		F0FCD5851811C7A500FA0136 /* Build configuration list for PBXNativeTarget "CPHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0C2DB3C17A2D66800D0564F /* Debug */,
-				F0C2DB3D17A2D66800D0564F /* Release */,
+				F0FCD5861811C7A500FA0136 /* Debug */,
+				F0FCD5871811C7A500FA0136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F0C2DB2517A2D66800D0564F /* Project object */;
+	rootObject = F0FCD56A1811C7A500FA0136 /* Project object */;
 }

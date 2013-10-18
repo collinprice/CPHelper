@@ -33,8 +33,16 @@
         for (NSInteger i = 0; i < [self.tabBar.items count]; ++i) {
             UITabBarItem* item = self.tabBar.items[i];
             CustomTabBarItem* cItem = items[i];
-            item.title = cItem.title;
-            [item setFinishedSelectedImage:cItem.image withFinishedUnselectedImage:cItem.image];
+            
+            if ([item respondsToSelector:@selector(setFinishedSelectedImage:withFinishedUnselectedImage:)]) {
+                item.title = cItem.title;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+                [item setFinishedSelectedImage:cItem.image withFinishedUnselectedImage:cItem.image];
+#pragma clang diagnostic pop
+            } else {
+                item = [[UITabBarItem alloc] initWithTitle:cItem.title image:cItem.image selectedImage:cItem.image];
+            }
         }
     }
     return self;
