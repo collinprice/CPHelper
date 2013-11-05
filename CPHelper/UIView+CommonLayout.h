@@ -24,6 +24,7 @@
 -(void)addMultipleVerticalFillConstraints:(NSArray*)views withPadding:(NSInteger)padding;
 
 -(void)addEvenHorizontalConstraints:(NSArray*)views;
+-(void)addEvenVerticalConstraints:(NSArray*)views;
 
 -(void)addCenterXConstraint:(UIView*)view;
 -(void)addCenterXConstraint:(UIView *)view withOffset:(NSInteger)offset;

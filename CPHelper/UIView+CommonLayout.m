@@ -57,8 +57,18 @@
 
 -(void)addEvenHorizontalConstraints:(NSArray*)views {
     
+    [self addEvenStackConstraints:views withDirection:@"H"];
+}
+
+-(void)addEvenVerticalConstraints:(NSArray*)views {
+    
+    [self addEvenStackConstraints:views withDirection:@"V"];
+}
+
+-(void)addEvenStackConstraints:(NSArray*)views withDirection:(NSString*)direction {
+    
     BOOL firstView = YES;
-    NSString *hConstraint = @"H:|";
+    NSString *hConstraint = [NSString stringWithFormat:@"%@:|", direction];
     NSMutableDictionary *viewsDict = [[NSMutableDictionary alloc] init];
     for (NSInteger i = 0; i < [views count]; ++i) {
         NSString *vName = [NSString stringWithFormat:@"btn%d",i];

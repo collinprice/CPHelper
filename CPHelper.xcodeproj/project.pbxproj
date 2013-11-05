@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F07B826318181FC1005B78AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07B826218181FC1005B78AE /* CoreLocation.framework */; };
 		F0FCD5781811C7A500FA0136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FCD5771811C7A500FA0136 /* Foundation.framework */; };
 		F0FCD57E1811C7A500FA0136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0FCD57C1811C7A500FA0136 /* InfoPlist.strings */; };
 		F0FCD5881811C82A00FA0136 /* CPHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCD5801811C7A500FA0136 /* CPHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,6 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F07B826218181FC1005B78AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F0FCD5741811C7A500FA0136 /* CPHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = CPHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FCD5771811C7A500FA0136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0FCD57B1811C7A500FA0136 /* CPHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPHelper-Info.plist"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07B826318181FC1005B78AE /* CoreLocation.framework in Frameworks */,
 				F0FCD5F81811CA9C00FA0136 /* CoreData.framework in Frameworks */,
 				F0FCD5781811C7A500FA0136 /* Foundation.framework in Frameworks */,
 			);
@@ -149,6 +152,7 @@
 		F0FCD5761811C7A500FA0136 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F07B826218181FC1005B78AE /* CoreLocation.framework */,
 				F0FCD5F71811CA9C00FA0136 /* CoreData.framework */,
 				F0FCD5771811C7A500FA0136 /* Foundation.framework */,
 			);
@@ -534,6 +538,7 @@
 				F0FCD5871811C7A500FA0136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
